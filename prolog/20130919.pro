@@ -18,30 +18,40 @@
 len([], Z) :- Z is 0.
 len([_|Y], Z) :- len(Y,N), Z is N+1. 
 
-union([], L, L).
-union([X|L], Y, [X|Z]) 	:-	union(L,Y,Z).
+intersect([ ], _, [ ]).
+intersect([X|R], Y, [X|Z]) :- member(X, Y), !, intersect(R, Y, Z).
+intersect([_|R], Y, Z) :- intersect(R, Y, Z).
 
-remdupl([],[]).
-remdupl([X|Xs],[X|Ys]) :- \+ (member(X,Xs)), remdupl(Xs,Ys). 
-remdupl([X|Xs],Out) :- member(X,Xs), remdupl(Xs,Out). 
+%% Casi base
+col_tree([1, X, X], [X]) 	:- atomic(X).
+col_tree([2, X, Y], [X, Y]) :- atomic(X), atomic(Y).
 
-%% intersect([],[],[]).
-%% intersect(X,[],[]).
-%% intersect([],X,[]).
-%% intersect([X|Xs],[X|Ys], Z) :- (member(X,Xs), intersect(Xs, Ys).
+%% Caso alberi sbilanciati a destra
+col_tree([N1, Tree1, Tree2]) :- 		atomic(Tree1),
+										col_tree(Tree2, Col2),
+										union([Tree1], Col2, Colors), 
+										len(Colors, N1).
 
-col_tree([0, [], []]).
-col_tree([1, X, []]) :- atomic(X).
-col_tree([1, [], X]) :- atomic(X).
-col_tree([2, X, Y]) :- atomic(X), atomic(Y).
-col_tree([N1, [NL, LL], [NR, LR]]) :- 	N1 is NL + NR, 
-									union(LL, LR, Z), 
-									intersection(LL, Z, W1),
-									len(W1, NL),
-									intersection(LR, Z, W2),
-									len(W2, NR)
-									.
+%% Caso alberi sbilanciati a sinistra
+col_tree([N1, Tree1, Tree2]) :- 		col_tree(Tree1, Col1),
+										atomic(Tree2),
+										union(Col1, [Tree2], Colors), 
+										len(Colors, N1).
 
-%% col_tree(N, [R, L11])
+%% Caso alberi bilanciati
+col_tree([N1, Tree1, Tree2]) :- 		col_tree(Tree1, Col1),
+										col_tree(Tree2, Col2),
+										union(Col1, Col2, Colors), 
+										len(Colors, N1).
 
-main :- col_tree([R,[X,yellow,brown],[Y,blue,yellow]]), writef('Lollete %t\n', [R, X, Y]).
+main :- col_tree([R,[X,yellow,brown],[Y,blue,yellow]]), writef('Lollete %t %t %t\n', [R, X, Y]).
+%% main :- intersect([yellow,brown],[blue,yellow], Z), writef('Lollete %t\n', [Z]).
+
+
+
+
+
+
+
+
+
