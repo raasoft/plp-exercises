@@ -1,0 +1,2128 @@
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+  30
+  31
+  32
+  33
+  34
+  35
+  36
+  37
+  38
+  39
+  40
+  41
+  42
+  43
+  44
+  45
+  46
+  47
+  48
+  49
+  50
+  51
+  52
+  53
+  54
+  55
+  56
+  57
+  58
+  59
+  60
+  61
+  62
+  63
+  64
+  65
+  66
+  67
+  68
+  69
+  70
+  71
+  72
+  73
+  74
+  75
+  76
+  77
+  78
+  79
+  80
+  81
+  82
+  83
+  84
+  85
+  86
+  87
+  88
+  89
+  90
+  91
+  92
+  93
+  94
+  95
+  96
+  97
+  98
+  99
+ 100
+ 101
+ 102
+ 103
+ 104
+ 105
+ 106
+ 107
+ 108
+ 109
+ 110
+ 111
+ 112
+ 113
+ 114
+ 115
+ 116
+ 117
+ 118
+ 119
+ 120
+ 121
+ 122
+ 123
+ 124
+ 125
+ 126
+ 127
+ 128
+ 129
+ 130
+ 131
+ 132
+ 133
+ 134
+ 135
+ 136
+ 137
+ 138
+ 139
+ 140
+ 141
+ 142
+ 143
+ 144
+ 145
+ 146
+ 147
+ 148
+ 149
+ 150
+ 151
+ 152
+ 153
+ 154
+ 155
+ 156
+ 157
+ 158
+ 159
+ 160
+ 161
+ 162
+ 163
+ 164
+ 165
+ 166
+ 167
+ 168
+ 169
+ 170
+ 171
+ 172
+ 173
+ 174
+ 175
+ 176
+ 177
+ 178
+ 179
+ 180
+ 181
+ 182
+ 183
+ 184
+ 185
+ 186
+ 187
+ 188
+ 189
+ 190
+ 191
+ 192
+ 193
+ 194
+ 195
+ 196
+ 197
+ 198
+ 199
+ 200
+ 201
+ 202
+ 203
+ 204
+ 205
+ 206
+ 207
+ 208
+ 209
+ 210
+ 211
+ 212
+ 213
+ 214
+ 215
+ 216
+ 217
+ 218
+ 219
+ 220
+ 221
+ 222
+ 223
+ 224
+ 225
+ 226
+ 227
+ 228
+ 229
+ 230
+ 231
+ 232
+ 233
+ 234
+ 235
+ 236
+ 237
+ 238
+ 239
+ 240
+ 241
+ 242
+ 243
+ 244
+ 245
+ 246
+ 247
+ 248
+ 249
+ 250
+ 251
+ 252
+ 253
+ 254
+ 255
+ 256
+ 257
+ 258
+ 259
+ 260
+ 261
+ 262
+ 263
+ 264
+ 265
+ 266
+ 267
+ 268
+ 269
+ 270
+ 271
+ 272
+ 273
+ 274
+ 275
+ 276
+ 277
+ 278
+ 279
+ 280
+ 281
+ 282
+ 283
+ 284
+ 285
+ 286
+ 287
+ 288
+ 289
+ 290
+ 291
+ 292
+ 293
+ 294
+ 295
+ 296
+ 297
+ 298
+ 299
+ 300
+ 301
+ 302
+ 303
+ 304
+ 305
+ 306
+ 307
+ 308
+ 309
+ 310
+ 311
+ 312
+ 313
+ 314
+ 315
+ 316
+ 317
+ 318
+ 319
+ 320
+ 321
+ 322
+ 323
+ 324
+ 325
+ 326
+ 327
+ 328
+ 329
+ 330
+ 331
+ 332
+ 333
+ 334
+ 335
+ 336
+ 337
+ 338
+ 339
+ 340
+ 341
+ 342
+ 343
+ 344
+ 345
+ 346
+ 347
+ 348
+ 349
+ 350
+ 351
+ 352
+ 353
+ 354
+ 355
+ 356
+ 357
+ 358
+ 359
+ 360
+ 361
+ 362
+ 363
+ 364
+ 365
+ 366
+ 367
+ 368
+ 369
+ 370
+ 371
+ 372
+ 373
+ 374
+ 375
+ 376
+ 377
+ 378
+ 379
+ 380
+ 381
+ 382
+ 383
+ 384
+ 385
+ 386
+ 387
+ 388
+ 389
+ 390
+ 391
+ 392
+ 393
+ 394
+ 395
+ 396
+ 397
+ 398
+ 399
+ 400
+ 401
+ 402
+ 403
+ 404
+ 405
+ 406
+ 407
+ 408
+ 409
+ 410
+ 411
+ 412
+ 413
+ 414
+ 415
+ 416
+ 417
+ 418
+ 419
+ 420
+ 421
+ 422
+ 423
+ 424
+ 425
+ 426
+ 427
+ 428
+ 429
+ 430
+ 431
+ 432
+ 433
+ 434
+ 435
+ 436
+ 437
+ 438
+ 439
+ 440
+ 441
+ 442
+ 443
+ 444
+ 445
+ 446
+ 447
+ 448
+ 449
+ 450
+ 451
+ 452
+ 453
+ 454
+ 455
+ 456
+ 457
+ 458
+ 459
+ 460
+ 461
+ 462
+ 463
+ 464
+ 465
+ 466
+ 467
+ 468
+ 469
+ 470
+ 471
+ 472
+ 473
+ 474
+ 475
+ 476
+ 477
+ 478
+ 479
+ 480
+ 481
+ 482
+ 483
+ 484
+ 485
+ 486
+ 487
+ 488
+ 489
+ 490
+ 491
+ 492
+ 493
+ 494
+ 495
+ 496
+ 497
+ 498
+ 499
+ 500
+ 501
+ 502
+ 503
+ 504
+ 505
+ 506
+ 507
+ 508
+ 509
+ 510
+ 511
+ 512
+ 513
+ 514
+ 515
+ 516
+ 517
+ 518
+ 519
+ 520
+ 521
+ 522
+ 523
+ 524
+ 525
+ 526
+ 527
+ 528
+ 529
+ 530
+ 531
+ 532
+ 533
+ 534
+ 535
+ 536
+ 537
+ 538
+ 539
+ 540
+ 541
+ 542
+ 543
+ 544
+ 545
+ 546
+ 547
+ 548
+ 549
+ 550
+ 551
+ 552
+ 553
+ 554
+ 555
+ 556
+ 557
+ 558
+ 559
+ 560
+ 561
+ 562
+ 563
+ 564
+ 565
+ 566
+ 567
+ 568
+ 569
+ 570
+ 571
+ 572
+ 573
+ 574
+ 575
+ 576
+ 577
+ 578
+ 579
+ 580
+ 581
+ 582
+ 583
+ 584
+ 585
+ 586
+ 587
+ 588
+ 589
+ 590
+ 591
+ 592
+ 593
+ 594
+ 595
+ 596
+ 597
+ 598
+ 599
+ 600
+ 601
+ 602
+ 603
+ 604
+ 605
+ 606
+ 607
+ 608
+ 609
+ 610
+ 611
+ 612
+ 613
+ 614
+ 615
+ 616
+ 617
+ 618
+ 619
+ 620
+ 621
+ 622
+ 623
+ 624
+ 625
+ 626
+ 627
+ 628
+ 629
+ 630
+ 631
+ 632
+ 633
+ 634
+ 635
+ 636
+ 637
+ 638
+ 639
+ 640
+ 641
+ 642
+ 643
+ 644
+ 645
+ 646
+ 647
+ 648
+ 649
+ 650
+ 651
+ 652
+ 653
+ 654
+ 655
+ 656
+ 657
+ 658
+ 659
+ 660
+ 661
+ 662
+ 663
+ 664
+ 665
+ 666
+ 667
+ 668
+ 669
+ 670
+ 671
+ 672
+ 673
+ 674
+ 675
+ 676
+ 677
+ 678
+ 679
+ 680
+ 681
+ 682
+ 683
+ 684
+ 685
+ 686
+ 687
+ 688
+ 689
+ 690
+ 691
+ 692
+ 693
+ 694
+ 695
+ 696
+ 697
+ 698
+ 699
+ 700
+ 701
+ 702
+ 703
+ 704
+ 705
+ 706
+ 707
+ 708
+ 709
+ 710
+ 711
+ 712
+ 713
+ 714
+ 715
+ 716
+ 717
+ 718
+ 719
+ 720
+ 721
+ 722
+ 723
+ 724
+ 725
+ 726
+ 727
+ 728
+ 729
+ 730
+ 731
+ 732
+ 733
+ 734
+ 735
+ 736
+ 737
+ 738
+ 739
+ 740
+ 741
+ 742
+ 743
+ 744
+ 745
+ 746
+ 747
+ 748
+ 749
+ 750
+ 751
+ 752
+ 753
+ 754
+ 755
+ 756
+ 757
+ 758
+ 759
+ 760
+ 761
+ 762
+ 763
+ 764
+ 765
+ 766
+ 767
+ 768
+ 769
+ 770
+ 771
+ 772
+ 773
+ 774
+ 775
+ 776
+ 777
+ 778
+ 779
+ 780
+ 781
+ 782
+ 783
+ 784
+ 785
+ 786
+ 787
+ 788
+ 789
+ 790
+ 791
+ 792
+ 793
+ 794
+ 795
+ 796
+ 797
+ 798
+ 799
+ 800
+ 801
+ 802
+ 803
+ 804
+ 805
+ 806
+ 807
+ 808
+ 809
+ 810
+ 811
+ 812
+ 813
+ 814
+ 815
+ 816
+ 817
+ 818
+ 819
+ 820
+ 821
+ 822
+ 823
+ 824
+ 825
+ 826
+ 827
+ 828
+ 829
+ 830
+ 831
+ 832
+ 833
+ 834
+ 835
+ 836
+ 837
+ 838
+ 839
+ 840
+ 841
+ 842
+ 843
+ 844
+ 845
+ 846
+ 847
+ 848
+ 849
+ 850
+ 851
+ 852
+ 853
+ 854
+ 855
+ 856
+ 857
+ 858
+ 859
+ 860
+ 861
+ 862
+ 863
+ 864
+ 865
+ 866
+ 867
+ 868
+ 869
+ 870
+ 871
+ 872
+ 873
+ 874
+ 875
+ 876
+ 877
+ 878
+ 879
+ 880
+ 881
+ 882
+ 883
+ 884
+ 885
+ 886
+ 887
+ 888
+ 889
+ 890
+ 891
+ 892
+ 893
+ 894
+ 895
+ 896
+ 897
+ 898
+ 899
+ 900
+ 901
+ 902
+ 903
+ 904
+ 905
+ 906
+ 907
+ 908
+ 909
+ 910
+ 911
+ 912
+ 913
+ 914
+ 915
+ 916
+ 917
+ 918
+ 919
+ 920
+ 921
+ 922
+ 923
+ 924
+ 925
+ 926
+ 927
+ 928
+ 929
+ 930
+ 931
+ 932
+ 933
+ 934
+ 935
+ 936
+ 937
+ 938
+ 939
+ 940
+ 941
+ 942
+ 943
+ 944
+ 945
+ 946
+ 947
+ 948
+ 949
+ 950
+ 951
+ 952
+ 953
+ 954
+ 955
+ 956
+ 957
+ 958
+ 959
+ 960
+ 961
+ 962
+ 963
+ 964
+ 965
+ 966
+ 967
+ 968
+ 969
+ 970
+ 971
+ 972
+ 973
+ 974
+ 975
+ 976
+ 977
+ 978
+ 979
+ 980
+ 981
+ 982
+ 983
+ 984
+ 985
+ 986
+ 987
+ 988
+ 989
+ 990
+ 991
+ 992
+ 993
+ 994
+ 995
+ 996
+ 997
+ 998
+ 999
+1000
+1001
+1002
+1003
+1004
+1005
+1006
+1007
+1008
+1009
+1010
+1011
+1012
+1013
+1014
+1015
+1016
+1017
+1018
+1019
+1020
+1021
+1022
+1023
+1024
+1025
+1026
+1027
+1028
+1029
+1030
+1031
+1032
+1033
+1034
+1035
+1036
+1037
+1038
+1039
+1040
+1041
+1042
+1043
+1044
+1045
+1046
+1047
+1048
+1049
+1050
+1051
+1052
+1053
+1054
+1055
+1056
+1057
+1058
+1059
+1060
+1061
+1062
+1063
+1064</pre></td><td><pre style="margin: 0; line-height: 125%">    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    <span style="color: #888888">%% DATATYPES</span>
+    <span style="color: #888888">%% UNIFICATIONS</span>
+    <span style="color: #888888">%% DATATYPES OPERATORS</span>
+    <span style="color: #888888">%% USING LISTS</span>
+    <span style="color: #888888">%% NUMBERS</span>
+    <span style="color: #888888">%% META PREDICATES</span>
+    <span style="color: #888888">%% BINARY TREES</span>
+    <span style="color: #888888">%% MULTIWAY TREES</span>
+    <span style="color: #888888">%% SIMPLE PROGRAMS</span>
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+
+
+
+
+
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    <span style="color: #888888">%% DATATYPES</span>
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    
+    <span style="color: #888888">%% An atom, in Prolog, means a single data item. It may be of one of four types:</span>
+
+    <span style="color: #888888">%% a STRING ATOM, like &#39;This is a string&#39; or</span>
+
+    <span style="color: #888888">%% a SYMBOL, like love, john, and pizza, in love(john, pizza). </span>
+    <span style="color: #888888">%%          Atoms of this type must start with a lower case letter. </span>
+    <span style="color: #888888">%%          They can include digits (after the initial lower-case letter) and the </span>
+    <span style="color: #888888">%%          underscore character (_).</span>
+
+    <span style="color: #888888">%% the EMPTY LIST []. This is a strange one: other lists are not atoms. </span>
+    <span style="color: #888888">%%          If you think of an atom as something that is not divisible into parts </span>
+    <span style="color: #888888">%%          (the original meaning of the word atom, though subverted by subatomic </span>
+    <span style="color: #888888">%%          physics) then [] being an atom is less surprsing, since it is certainly </span>
+    <span style="color: #888888">%%          not divisible into parts.</span>
+
+    <span style="color: #888888">%% strings of special characters, like &lt;---&gt;, ..., ===&gt;.When using atoms of this type,</span>
+    <span style="color: #888888">%%          some care is needed to avoid using strings of special characters with a </span>
+    <span style="color: #888888">%%          predefined meaning, like the neck symbol :-, the cut symbol !, and various</span>
+
+    <span style="color: #888888">%%          arithmetic and comparison operators. </span>
+
+    <span style="color: #888888">%% The available special characters for constructing this class of atom are: </span>
+    <span style="color: #888888">%% +, -, *, /, &lt;, &gt;, =, :, ., &amp;, _, and ~.</span>
+
+
+
+
+    
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    <span style="color: #888888">%% UNIFICATIONS</span>
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+
+    <span style="color: #888888">%% [a,b,c] unifies with [Head|Tail] resulting in Head=a and Tail=[b,c]</span>
+    <span style="color: #888888">%% [a] unifies with [H|T] resulting in H=a and T=[]</span>
+    <span style="color: #888888">%% [a,b,c] unifies with [a|T] resulting in T=[b,c]</span>
+    <span style="color: #888888">%% [a,b,c] doesn&#39;t unify with [b|T]</span>
+    <span style="color: #888888">%% [] doesn&#39;t unify with [H|T]</span>
+    <span style="color: #888888">%% [] unifies with []. Two empty lists always match</span>
+    
+
+
+
+    
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    <span style="color: #888888">%% DATATYPES OPERATORS</span>
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    
+    <span style="color: #0066BB; font-weight: bold">var</span>(<span style="color: #996633">X</span>).     <span style="color: #888888">%% an uninstantiated variable</span>
+
+    <span style="color: #0066BB; font-weight: bold">nonvar</span>(<span style="color: #996633">X</span>).  <span style="color: #888888">%% not a variable, or is an instantiated variable</span>
+    <span style="color: #0066BB; font-weight: bold">compound</span>(<span style="color: #996633">X</span>).<span style="color: #888888">%% a compound term - not an unbound variable, and not atomic (see below)</span>
+    <span style="color: #0066BB; font-weight: bold">atom</span>(<span style="color: #996633">X</span>).	<span style="color: #888888">%% an atom, or bound to an atom (variables, list, ARE NOT); ([], symbols ARE)</span>
+    <span style="color: #0066BB; font-weight: bold">integer</span>(<span style="color: #996633">X</span>).	<span style="color: #888888">%% an integer, or bound to an integer</span>
+    <span style="color: #0066BB; font-weight: bold">float</span>(<span style="color: #996633">X</span>).	<span style="color: #888888">%% a floating point (fractional) number such as 3.5 or 1.0, or bound</span>
+                <span style="color: #888888">%% to one -but,if float(X) is evaluated using is,then you get this float</span>
+    <span style="color: #0066BB; font-weight: bold">number</span>(<span style="color: #996633">X</span>).	<span style="color: #888888">%% a number, or bound to a number (integer or float)</span>
+    <span style="color: #0066BB; font-weight: bold">atomic</span>(<span style="color: #996633">X</span>).	<span style="color: #888888">%% ONE number, ONE string, or ONE atom, or bound to one. Not atomic</span>
+                <span style="color: #888888">%% atomic(1), atomic(symbol), atomic(&quot;lol&quot;), atomic([]) --&gt; true</span>
+                <span style="color: #888888">%% atomic([1, 2, 3]), atomic([1]) --&gt; false</span>
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    <span style="color: #888888">%% USING LISTS</span>
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    
+    
+    <span style="color: #888888">%% MEMBER - FIND AN ELEMENT IN A LIST</span>
+        
+        <span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">X</span>,[<span style="color: #996633">X</span>|<span style="color: #008800; font-weight: bold">_</span>]). 
+        <span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">X</span>,[<span style="color: #008800; font-weight: bold">_</span>|<span style="color: #996633">T</span>])  :-  <span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">X</span>,<span style="color: #996633">T</span>).
+        
+            <span style="color: #888888">%% Usage: member(2, [1,4,3,4,5]). == false</span>
+            <span style="color: #888888">%% Usage: member(2, [1,2,3,4,5]). == true</span>
+    
+    <span style="color: #888888">%% NOT MEMBER</span>
+    
+        <span style="color: #0066BB; font-weight: bold">non_member</span>(<span style="color: #996633">X</span>,[<span style="color: #996633">Y</span>|<span style="color: #996633">T</span>]) :- <span style="color: #996633">X</span> <span style="background-color: #fff0f0">\==</span> <span style="color: #996633">Y</span>, <span style="color: #0066BB; font-weight: bold">non_member</span>(<span style="color: #996633">X</span>,<span style="color: #996633">T</span>).
+        <span style="color: #0066BB; font-weight: bold">non_member</span>(<span style="color: #996633">X</span>,[]).
+
+            <span style="color: #888888">% --- More efficient to define non_member separately instead of</span>
+            <span style="color: #888888">% --- as not(member(X,L))</span>
+    
+    <span style="color: #888888">%% LIST LENGTH</span>
+    
+        <span style="color: #0066BB; font-weight: bold">myLength</span>([],<span style="color: #996633">Z</span>) :- <span style="color: #996633">Z</span> <span style="color: #333333">is</span> <span style="color: #6600EE; font-weight: bold">0</span>.
+        <span style="color: #0066BB; font-weight: bold">myLength</span>([<span style="color: #008800; font-weight: bold">_</span>|<span style="color: #996633">Y</span>], <span style="color: #996633">Z</span>) :- <span style="color: #0066BB; font-weight: bold">myLength</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">N</span>), <span style="color: #996633">Z</span> <span style="color: #333333">is</span> <span style="color: #996633">N</span><span style="color: #333333">+</span><span style="color: #6600EE; font-weight: bold">1</span>. 
+
+            <span style="color: #888888">%% Efficient but not using an accumulator (which is tail-recursive!</span>
+        
+        <span style="color: #0066BB; font-weight: bold">accLen</span>([<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>], <span style="color: #996633">ACC</span>, <span style="color: #996633">L</span>) :- <span style="color: #996633">ACC_NEW</span> <span style="color: #333333">is</span> <span style="color: #996633">ACC</span><span style="color: #333333">+</span><span style="color: #6600EE; font-weight: bold">1</span>, <span style="color: #0066BB; font-weight: bold">accLen</span>(<span style="color: #996633">XS</span>, <span style="color: #996633">ACC_NEW</span>, <span style="color: #996633">L</span>).
+        <span style="color: #0066BB; font-weight: bold">accLen</span>([], <span style="color: #996633">L</span>, <span style="color: #996633">L</span>).
+
+    <span style="color: #888888">%% N-TH ELEMENT OF THE LIST</span>
+
+        <span style="color: #0066BB; font-weight: bold">nthElement</span>(<span style="color: #996633">List</span>, <span style="color: #996633">Pos</span>, <span style="color: #996633">Answer</span>) :- <span style="color: #0066BB; font-weight: bold">nthElementAcc</span>(<span style="color: #996633">List</span>, <span style="color: #996633">Pos</span>, <span style="color: #996633">Answer</span>).
+
+        <span style="color: #0066BB; font-weight: bold">nthElementAcc</span>([<span style="color: #996633">X</span>|<span style="color: #008800; font-weight: bold">_</span>], <span style="color: #6600EE; font-weight: bold">0</span>, <span style="color: #996633">X</span>) :- !.    
+        <span style="color: #0066BB; font-weight: bold">nthElementAcc</span>([<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>], <span style="color: #996633">ACC</span>, <span style="color: #996633">L</span>) :- <span style="color: #996633">ACC_NEW</span> <span style="color: #333333">is</span> <span style="color: #996633">ACC</span><span style="color: #333333">-</span><span style="color: #6600EE; font-weight: bold">1</span>, <span style="color: #0066BB; font-weight: bold">nthElementAcc</span>(<span style="color: #996633">XS</span>, <span style="color: #996633">ACC_NEW</span>, <span style="color: #996633">L</span>).
+
+    <span style="color: #888888">%% LAST ELEMENT OF THE LIST</span>
+
+        <span style="color: #0066BB; font-weight: bold">lastElement</span>([], []).
+        <span style="color: #0066BB; font-weight: bold">lastElement</span>([<span style="color: #996633">X</span>], <span style="color: #996633">X</span>).
+        <span style="color: #0066BB; font-weight: bold">lastElement</span>([<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>], <span style="color: #996633">Answer</span>) :- <span style="color: #0066BB; font-weight: bold">lastElement</span>(<span style="color: #996633">XS</span>, <span style="color: #996633">Answer</span>), !.
+
+    <span style="color: #888888">%% PENULTIMO ELEMENTO</span>
+
+        <span style="color: #888888">%% Define a Prolog procedure to obtain from a list the last but one element.</span>
+        <span style="color: #888888">%% If the number of elements in the list is less than 2, it should fail.</span>
+
+        <span style="color: #0066BB; font-weight: bold">lastButOne</span>([<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>], <span style="color: #996633">X</span>) :- !.
+        <span style="color: #0066BB; font-weight: bold">lastButOne</span>([<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>], <span style="color: #996633">ACC</span>) :- <span style="color: #0066BB; font-weight: bold">lastButOne</span>(<span style="color: #996633">XS</span>, <span style="color: #996633">ACC</span>).
+
+    <span style="color: #888888">%% SPLIT AT</span>
+        
+        <span style="color: #0066BB; font-weight: bold">splitAt</span>(<span style="color: #996633">String</span>, <span style="color: #996633">Index</span>, <span style="color: #996633">Left</span>, <span style="color: #996633">Right</span>) :- <span style="color: #0066BB; font-weight: bold">split</span>(<span style="color: #996633">String</span>,<span style="color: #996633">Index</span>, <span style="color: #996633">Left</span>, <span style="color: #996633">Right</span>).
+        
+        <span style="color: #0066BB; font-weight: bold">split</span>(<span style="color: #996633">L</span>,<span style="color: #6600EE; font-weight: bold">0</span>,[],<span style="color: #996633">L</span>).
+        <span style="color: #0066BB; font-weight: bold">split</span>([<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>], <span style="color: #996633">N</span>, [<span style="color: #996633">X</span>|<span style="color: #996633">ZS</span>], <span style="color: #996633">YS</span>) :- <span style="color: #996633">N</span> <span style="color: #333333">&gt;</span> <span style="color: #6600EE; font-weight: bold">0</span>, <span style="color: #996633">N1</span> <span style="color: #333333">is</span> <span style="color: #996633">N</span><span style="color: #333333">-</span><span style="color: #6600EE; font-weight: bold">1</span>, <span style="color: #0066BB; font-weight: bold">split</span>(<span style="color: #996633">XS</span>, <span style="color: #996633">N1</span>, <span style="color: #996633">ZS</span>, <span style="color: #996633">YS</span>).
+
+            <span style="color: #888888">%% Split list at one index:</span>
+            <span style="color: #888888">%%Usage: split([1,2,3,4], 2, Left, Right). %% Left = [1,2] e Right = [3,4]</span>
+
+    <span style="color: #888888">%% INSERT AT</span>
+    
+        <span style="color: #0066BB; font-weight: bold">insertAt</span>(<span style="color: #996633">As</span>, <span style="color: #6600EE; font-weight: bold">0</span>, <span style="color: #996633">X</span>, [<span style="color: #996633">X</span>|<span style="color: #996633">As</span>]) :- !.
+        <span style="color: #0066BB; font-weight: bold">insertAt</span>([<span style="color: #996633">A</span>|<span style="color: #996633">As</span>], <span style="color: #996633">I</span>, <span style="color: #996633">X</span>, [<span style="color: #996633">A</span>|<span style="color: #996633">Rs</span>]) :- <span style="color: #996633">I</span><span style="color: #333333">&gt;</span><span style="color: #6600EE; font-weight: bold">0</span>, <span style="color: #996633">I1</span> <span style="color: #333333">is</span> <span style="color: #996633">I</span><span style="color: #333333">-</span><span style="color: #6600EE; font-weight: bold">1</span>,
+            <span style="color: #0066BB; font-weight: bold">insertAt</span>(<span style="color: #996633">As</span>, <span style="color: #996633">I1</span>, <span style="color: #996633">X</span>, <span style="color: #996633">Rs</span>).
+        
+    <span style="color: #888888">%% REMOVE AT</span>
+    
+        <span style="color: #0066BB; font-weight: bold">removeAt</span>([<span style="color: #996633">X</span>|<span style="color: #996633">As</span>], <span style="color: #6600EE; font-weight: bold">0</span>, <span style="color: #996633">As</span>) :- !.
+        <span style="color: #0066BB; font-weight: bold">removeAt</span>([<span style="color: #996633">A</span>|<span style="color: #996633">As</span>], <span style="color: #996633">I</span>, [<span style="color: #996633">A</span>|<span style="color: #996633">Rs</span>]) :- <span style="color: #996633">I</span><span style="color: #333333">&gt;</span><span style="color: #6600EE; font-weight: bold">0</span>, <span style="color: #996633">I1</span> <span style="color: #333333">is</span> <span style="color: #996633">I</span><span style="color: #333333">-</span><span style="color: #6600EE; font-weight: bold">1</span>,
+            <span style="color: #0066BB; font-weight: bold">removeAt</span>(<span style="color: #996633">As</span>, <span style="color: #996633">I1</span>, <span style="color: #996633">Rs</span>).   
+
+    <span style="color: #888888">%% REMOVE ELEMENT</span>
+   
+        <span style="color: #0066BB; font-weight: bold">delete</span>(<span style="color: #996633">A</span>,[<span style="color: #996633">A</span>|<span style="color: #996633">X</span>],<span style="color: #996633">X</span>).
+        <span style="color: #0066BB; font-weight: bold">delete</span>(<span style="color: #996633">A</span>,[<span style="color: #996633">B</span>|<span style="color: #996633">X</span>],[<span style="color: #996633">B</span>|<span style="color: #996633">Z</span>]) :- <span style="color: #0066BB; font-weight: bold">delete</span>(<span style="color: #996633">A</span>,<span style="color: #996633">X</span>,<span style="color: #996633">Z</span>).
+
+        <span style="color: #888888">% --- make a new set with all members except A </span>
+
+    <span style="color: #888888">%% APPEND LISTS OR UNION OF LIST</span>
+    
+        <span style="color: #0066BB; font-weight: bold">append</span>([],<span style="color: #996633">L</span>,<span style="color: #996633">L</span>).
+        <span style="color: #0066BB; font-weight: bold">append</span>([<span style="color: #996633">H</span>|<span style="color: #996633">T</span>],<span style="color: #996633">L2</span>,[<span style="color: #996633">H</span>|<span style="color: #996633">L3</span>]) :-  <span style="color: #0066BB; font-weight: bold">append</span>(<span style="color: #996633">T</span>,<span style="color: #996633">L2</span>,<span style="color: #996633">L3</span>).
+        
+        <span style="color: #888888">%% NON RIMUOVE I DUPLICATI!</span>
+
+        <span style="color: #888888">%% E&#39; possibile usare questo script anche all&#39; inverso:</span>
+        
+           <span style="color: #888888">% ?- append(ListLeft, ListRight, [a, b, c]).</span>
+            
+           <span style="color: #888888">% ListLeft  = []</span>
+           <span style="color: #888888">% ListRight = [a, b, c] ;</span>
+            
+           <span style="color: #888888">% ListLeft  = [a]</span>
+           <span style="color: #888888">% ListRight = [b, c] ;</span>
+            
+           <span style="color: #888888">% ListLeft  = [a, b]</span>
+           <span style="color: #888888">% ListRight = [c] ;</span>
+            
+           <span style="color: #888888">% ListLeft  = [a, b, c]</span>
+           <span style="color: #888888">% ListRight = [] ;</span>
+    
+    <span style="color: #888888">%% FIND IN A LIST</span>
+
+        <span style="color: #0066BB; font-weight: bold">findInList</span>(<span style="color: #008800; font-weight: bold">_</span>, []) :- <span style="background-color: #fff0f0">fail</span>.
+        <span style="color: #0066BB; font-weight: bold">findInList</span>(<span style="color: #996633">Y</span>, [<span style="color: #996633">Y</span>|<span style="color: #008800; font-weight: bold">_</span>]).
+        <span style="color: #0066BB; font-weight: bold">findInList</span>(<span style="color: #996633">Y</span>, [<span style="color: #996633">X</span>|<span style="color: #996633">Rest</span>]) :- <span style="color: #0066BB; font-weight: bold">findInList</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">X</span>) ; <span style="color: #0066BB; font-weight: bold">findInList</span>(<span style="color: #996633">Y</span>, <span style="color: #996633">Rest</span>). <span style="color: #888888">% ; means OR</span>
+
+        <span style="color: #888888">%%Usage: findInList(a, [root,[a,[b,1,2,3],[c,2],[f,[g,x,y]]]]) ---&gt; true</span>
+
+    <span style="color: #888888">%% IS_LIST CHECKS WHENEVER</span>
+    
+        <span style="color: #0066BB; font-weight: bold">is_list</span>(<span style="color: #996633">X</span>) :- <span style="color: #0066BB; font-weight: bold">var</span>(<span style="color: #996633">X</span>), !, <span style="background-color: #fff0f0">fail</span>.
+
+        <span style="color: #0066BB; font-weight: bold">is_list</span>([]).
+        <span style="color: #0066BB; font-weight: bold">is_list</span>([<span style="color: #008800; font-weight: bold">_</span>|<span style="color: #996633">T</span>]) :- <span style="color: #0066BB; font-weight: bold">is_list</span>(<span style="color: #996633">T</span>).  
+
+        <span style="color: #888888">%%Usage: is_list([1,2,&quot;asd&quot;,[4,[4,3],5,5]]). is true</span>
+
+    <span style="color: #888888">%% INTERSECTION BETWEEN SET</span>
+
+        <span style="color: #0066BB; font-weight: bold">intersect</span>([ ], <span style="color: #008800; font-weight: bold">_</span>, [ ]).
+        <span style="color: #0066BB; font-weight: bold">intersect</span>([<span style="color: #996633">X</span>|<span style="color: #996633">R</span>], <span style="color: #996633">Y</span>, [<span style="color: #996633">X</span>|<span style="color: #996633">Z</span>]) :- <span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">X</span>, <span style="color: #996633">Y</span>), !, <span style="color: #0066BB; font-weight: bold">intersect</span>(<span style="color: #996633">R</span>, <span style="color: #996633">Y</span>, <span style="color: #996633">Z</span>).
+        <span style="color: #0066BB; font-weight: bold">intersect</span>([<span style="color: #008800; font-weight: bold">_</span>|<span style="color: #996633">R</span>], <span style="color: #996633">Y</span>, <span style="color: #996633">Z</span>) :- <span style="color: #0066BB; font-weight: bold">intersect</span>(<span style="color: #996633">R</span>, <span style="color: #996633">Y</span>, <span style="color: #996633">Z</span>).
+
+        <span style="color: #888888">%%Usage: intersection([1,3,5,2,4] ,[6,1,2], X).</span>
+        <span style="color: #888888">%% X = [1, 2].</span>
+
+    <span style="color: #888888">%% UNION BETWEEN SET</span>
+        
+        <span style="color: #0066BB; font-weight: bold">union</span>(<span style="color: #996633">List1</span>, <span style="color: #996633">List2</span>, <span style="color: #996633">Answer</span>). <span style="color: #888888">%% Already defined! Duplicates are removed :)</span>
+
+        <span style="color: #0066BB; font-weight: bold">union</span>([],<span style="color: #996633">X</span>,<span style="color: #996633">X</span>).
+        <span style="color: #0066BB; font-weight: bold">union</span>([<span style="color: #996633">X</span>|<span style="color: #996633">R</span>],<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>) :- <span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>), !, <span style="color: #0066BB; font-weight: bold">union</span>(<span style="color: #996633">R</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>).
+        <span style="color: #0066BB; font-weight: bold">union</span>([<span style="color: #996633">X</span>|<span style="color: #996633">R</span>],<span style="color: #996633">Y</span>,[<span style="color: #996633">X</span>|<span style="color: #996633">Z</span>]) :- <span style="color: #0066BB; font-weight: bold">union</span>(<span style="color: #996633">R</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>).
+
+        <span style="color: #888888">%%Usage: union([1,3,5,2,4] ,[6,1,2], X).</span>
+        <span style="color: #888888">%% X = [3, 5, 4, 6, 1, 2].      </span>
+
+    <span style="color: #888888">%% DIFFERENCE BEETWEEN SET</span>
+
+        <span style="color: #0066BB; font-weight: bold">difference</span>([],<span style="color: #996633">Y</span>,[]).
+        <span style="color: #0066BB; font-weight: bold">difference</span>([<span style="color: #996633">X</span>|<span style="color: #996633">R</span>],<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>) :- <span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>),!,<span style="color: #0066BB; font-weight: bold">difference</span>(<span style="color: #996633">R</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>).
+        <span style="color: #0066BB; font-weight: bold">difference</span>([<span style="color: #996633">X</span>|<span style="color: #996633">R</span>],<span style="color: #996633">Y</span>,[<span style="color: #996633">X</span>|<span style="color: #996633">Z</span>]) :- <span style="color: #0066BB; font-weight: bold">difference</span>(<span style="color: #996633">R</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>).
+
+    <span style="color: #888888">%% EQUALITY BETWEEN SET</span>
+
+        <span style="color: #0066BB; font-weight: bold">equal</span>(<span style="color: #996633">X</span>,<span style="color: #996633">X</span>).
+        <span style="color: #0066BB; font-weight: bold">equal</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>) :- <span style="color: #0066BB; font-weight: bold">difference</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,[]), <span style="color: #0066BB; font-weight: bold">difference</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">X</span>,[]).
+     
+    <span style="color: #888888">%% PREFIX</span>
+
+        <span style="color: #0066BB; font-weight: bold">prefix</span>([<span style="color: #996633">X</span>|<span style="color: #008800; font-weight: bold">_</span>], [<span style="color: #996633">X</span>]).
+        <span style="color: #0066BB; font-weight: bold">prefix</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>], [<span style="color: #996633">X</span>|<span style="color: #996633">Z</span>]) :- <span style="color: #0066BB; font-weight: bold">prefix</span>(<span style="color: #996633">Xs</span>, <span style="color: #996633">Z</span>).
+
+    <span style="color: #888888">%% SUFFIX</span>
+
+        <span style="color: #0066BB; font-weight: bold">suffix</span>(<span style="color: #996633">X</span>,<span style="color: #996633">X</span>) :- <span style="background-color: #fff0f0">\+</span> <span style="color: #996633">X</span> <span style="color: #333333">=</span> [].
+        <span style="color: #0066BB; font-weight: bold">suffix</span>(<span style="color: #996633">List1</span>, <span style="color: #996633">List2</span>) :- <span style="color: #0066BB; font-weight: bold">reverse</span>(<span style="color: #996633">List1</span>, <span style="color: #996633">TsiL1</span>), <span style="color: #0066BB; font-weight: bold">reverse</span>(<span style="color: #996633">List2</span>, <span style="color: #996633">TsiL2</span>), <span style="color: #0066BB; font-weight: bold">prefix</span>(<span style="color: #996633">TsiL1</span>, <span style="color: #996633">TsiL2</span>).
+        
+        <span style="color: #888888">% l&#39;ultima riga anche: suffix([_|Xs], S) :- suffix(Xs, S).</span>
+
+    <span style="color: #888888">%% CHECK IF SUBSTRING</span>
+        
+        <span style="color: #0066BB; font-weight: bold">substring</span>([], <span style="color: #008800; font-weight: bold">_</span>) :- <span style="background-color: #fff0f0">fail</span>.
+        <span style="color: #0066BB; font-weight: bold">substring</span>(<span style="color: #996633">Rest1</span>, <span style="color: #996633">Rest2</span>) :- <span style="color: #0066BB; font-weight: bold">suffix</span>(<span style="color: #996633">Rest1</span>, <span style="color: #996633">X</span>), <span style="color: #0066BB; font-weight: bold">prefix</span>(<span style="color: #996633">X</span>, <span style="color: #996633">Rest2</span>), !.
+
+        <span style="color: #888888">%% or using mySubset:</span>
+
+        <span style="color: #0066BB; font-weight: bold">substring</span>(<span style="color: #996633">Rest1</span>, <span style="color: #996633">Rest2</span>) :- (<span style="color: #996633">Rest1</span>, <span style="color: #996633">Rest2</span>) ; <span style="color: #0066BB; font-weight: bold">mySubset</span>(<span style="color: #996633">Rest1</span>, <span style="color: #996633">Rest2</span>).
+
+    <span style="color: #888888">%% GENERATE ALL SUBSETS</span>
+
+        <span style="color: #0066BB; font-weight: bold">mySubset</span>([], []).
+        <span style="color: #0066BB; font-weight: bold">mySubset</span>([<span style="color: #996633">E</span>|<span style="color: #996633">Tail</span>], [<span style="color: #996633">E</span>|<span style="color: #996633">NTail</span>]) :- <span style="color: #0066BB; font-weight: bold">mySubset</span>(<span style="color: #996633">Tail</span>, <span style="color: #996633">NTail</span>).
+        <span style="color: #0066BB; font-weight: bold">mySubset</span>([<span style="color: #008800; font-weight: bold">_</span>|<span style="color: #996633">Tail</span>], <span style="color: #996633">NTail</span>)     :- <span style="color: #0066BB; font-weight: bold">mySubset</span>(<span style="color: #996633">Tail</span>, <span style="color: #996633">NTail</span>).     
+
+    <span style="color: #888888">%% CHECK IF AT LEAST ONE ELEMENT OF LIST SATISFY A CERTAIN PREDICATE</span>
+        
+        <span style="color: #0066BB; font-weight: bold">atLeastOneSatisfies</span>(<span style="color: #996633">List</span>, <span style="color: #996633">Predicate</span>) :- <span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">X</span>, <span style="color: #996633">List</span>), <span style="color: #0066BB; font-weight: bold">call</span>(<span style="color: #996633">Predicate</span>, <span style="color: #996633">X</span>).
+
+        <span style="color: #888888">%% Usage:</span>
+        <span style="color: #888888">%% positive(X) :- number(X), X &gt; 0.</span>
+        <span style="color: #888888">%% atLeastOneSatisfies([1,2,3], positive) TRUE</span>
+        <span style="color: #888888">%% atLeastOneSatisfies([-1,-2,-3], positive) FALSE</span>
+
+    <span style="color: #888888">%% FIND A SUBSET THAT MATCHES A CERTAIN PREDICATE</span>
+
+        <span style="color: #0066BB; font-weight: bold">findSubsetThatSatisfies</span>(<span style="color: #996633">List</span>, <span style="color: #996633">Predicate</span>, <span style="color: #996633">Sum</span>) :-  <span style="color: #0066BB; font-weight: bold">mySubset</span>(<span style="color: #996633">List</span>, <span style="color: #996633">X</span>), <span style="color: #0066BB; font-weight: bold">call</span>(<span style="color: #996633">Predicate</span>, <span style="color: #996633">X</span>).
+
+        <span style="color: #888888">%%Usage: </span>
+        <span style="color: #888888">%% predicate(X) :- myLength(X, N), N is 5.</span>
+        <span style="color: #888888">%% findSubsetThatSatisfies([1,2,3], len) :-  mySubset(List, X), call(Predicate, X).</span>
+
+    <span style="color: #888888">%% REVERSE A LIST</span>
+
+        <span style="color: #0066BB; font-weight: bold">rev</span>(<span style="color: #996633">List</span>,<span style="color: #996633">Answer</span>) :- <span style="color: #0066BB; font-weight: bold">accRev</span>(<span style="color: #996633">List</span>, [], <span style="color: #996633">Answer</span>).
+        
+        <span style="color: #0066BB; font-weight: bold">accRev</span>([<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>], <span style="color: #996633">ACC</span>, <span style="color: #996633">L</span>) :- <span style="color: #0066BB; font-weight: bold">accRev</span>(<span style="color: #996633">XS</span>,[<span style="color: #996633">X</span>|<span style="color: #996633">ACC</span>], <span style="color: #996633">L</span>).
+        <span style="color: #0066BB; font-weight: bold">accRev</span>([],<span style="color: #996633">L</span>,<span style="color: #996633">L</span>).
+
+    <span style="color: #888888">%% REVMAP </span>
+    
+        <span style="color: #888888">%% Define the operation revmap which reverses a list and then performs a map:</span>
+    
+        <span style="color: #0066BB; font-weight: bold">revMap</span>(<span style="color: #996633">Function</span>, <span style="color: #996633">List</span>, <span style="color: #996633">Answer</span>) :- <span style="color: #0066BB; font-weight: bold">accRevMap</span>(<span style="color: #996633">Function</span>, <span style="color: #996633">List</span>, [], <span style="color: #996633">Answer</span>).
+
+        <span style="color: #0066BB; font-weight: bold">accRevMap</span>(<span style="color: #996633">F</span>, [<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>], <span style="color: #996633">ACC</span>, <span style="color: #996633">L</span>) :- <span style="color: #0066BB; font-weight: bold">call</span>(<span style="color: #996633">F</span>, <span style="color: #996633">X</span>, <span style="color: #996633">W</span>), <span style="color: #0066BB; font-weight: bold">accRev</span>(<span style="color: #996633">XS</span>,[<span style="color: #996633">W</span>|<span style="color: #996633">ACC</span>], <span style="color: #996633">L</span>).
+        <span style="color: #0066BB; font-weight: bold">accRevMap</span>(<span style="color: #996633">F</span>, [],<span style="color: #996633">L</span>,<span style="color: #996633">L</span>).
+
+        <span style="color: #888888">%%Usage: </span>
+        <span style="color: #888888">%% cube(X,R) :- R is X*X*X.</span>
+        <span style="color: #888888">%% main :- revMap(cube, [2,3,4], X), print(X), nl.</span>
+
+    <span style="color: #888888">%% FLATTEN A LIST</span>
+
+        <span style="color: #888888">%% Transform a list, possibly holding lists as elements into a </span>
+        <span style="color: #888888">%% &#39;flat&#39; list by replacing each list with its elements (recursively).</span>
+        
+        <span style="color: #888888">%%Usage: my_flatten([a, [b, [c, d], e]], X) == X = [a, b, c, d, e]</span>
+        
+        <span style="color: #888888">%% Hint: Use the predefined predicates is_list/1 and append/3</span>
+
+        <span style="color: #0066BB; font-weight: bold">my_flatten</span>(<span style="color: #996633">X</span>, [<span style="color: #996633">X</span>]) :- <span style="background-color: #fff0f0">\+</span> <span style="color: #0066BB; font-weight: bold">is_list</span>(<span style="color: #996633">X</span>).
+        <span style="color: #0066BB; font-weight: bold">my_flatten</span>([],[]).
+        <span style="color: #0066BB; font-weight: bold">my_flatten</span>([<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>], <span style="color: #996633">ZS</span>) :- <span style="color: #0066BB; font-weight: bold">my_flatten</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>), <span style="color: #0066BB; font-weight: bold">my_flatten</span>(<span style="color: #996633">XS</span>,<span style="color: #996633">YS</span>), <span style="color: #0066BB; font-weight: bold">append</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">YS</span>,<span style="color: #996633">ZS</span>).
+
+    <span style="color: #888888">%% PALINDROME    </span>
+    
+        <span style="color: #888888">%% E&#39; molto facile definire le palindrome: basta verificare che l&#39; inverso</span>
+        <span style="color: #888888">%% sia uguale alla parola normale!</span>
+
+        <span style="color: #0066BB; font-weight: bold">palindrom</span>(<span style="color: #996633">Word</span>) :- <span style="color: #0066BB; font-weight: bold">rev</span>(<span style="color: #996633">Word</span>,<span style="color: #996633">Word</span>).
+    
+    <span style="color: #888888">%% COMPRESS </span>
+        
+        <span style="color: #888888">% Elimina i duplicati CONSECUTIVI di una lista di elementi</span>
+        
+        <span style="color: #0066BB; font-weight: bold">compress</span>([],[]).
+        <span style="color: #0066BB; font-weight: bold">compress</span>([<span style="color: #996633">X</span>],[<span style="color: #996633">X</span>]).
+        <span style="color: #0066BB; font-weight: bold">compress</span>([<span style="color: #996633">X</span>,<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>],<span style="color: #996633">ZS</span>) :- <span style="color: #0066BB; font-weight: bold">compress</span>([<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>],<span style="color: #996633">ZS</span>).
+        <span style="color: #0066BB; font-weight: bold">compress</span>([<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>|<span style="color: #996633">YS</span>],[<span style="color: #996633">X</span>|<span style="color: #996633">ZS</span>]) :- <span style="color: #996633">X</span> <span style="background-color: #fff0f0">\=</span> <span style="color: #996633">Y</span>, <span style="color: #0066BB; font-weight: bold">compress</span>([<span style="color: #996633">Y</span>|<span style="color: #996633">YS</span>],<span style="color: #996633">ZS</span>).
+        
+        <span style="color: #888888">% e.g. compress([1,1,1,2,2,2,1,1], Answer) == Answer = [1,2,1]</span>
+        
+    <span style="color: #888888">%% REMOVE DUPLICATES AND CREATE A SET</span>
+    
+        <span style="color: #0066BB; font-weight: bold">remdupl</span>([],[]).
+        <span style="color: #0066BB; font-weight: bold">remdupl</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>],[<span style="color: #996633">X</span>|<span style="color: #996633">Ys</span>]) :- <span style="background-color: #fff0f0">\+</span> (<span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Xs</span>)), <span style="color: #0066BB; font-weight: bold">remdupl</span>(<span style="color: #996633">Xs</span>,<span style="color: #996633">Ys</span>). 
+        <span style="color: #0066BB; font-weight: bold">remdupl</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>],<span style="color: #996633">Out</span>) :- <span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Xs</span>), <span style="color: #0066BB; font-weight: bold">remdupl</span>(<span style="color: #996633">Xs</span>,<span style="color: #996633">Out</span>). 
+        
+        <span style="color: #888888">% e.g. remdupl([1,1,1,2,2,2,1,1], Answer) == Answer = [1,2]</span>
+   
+        <span style="color: #0066BB; font-weight: bold">make_set</span>([],[]).
+        <span style="color: #0066BB; font-weight: bold">make_set</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>) :- <span style="color: #0066BB; font-weight: bold">setof</span>(<span style="color: #996633">Z</span>,<span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">Z</span>,<span style="color: #996633">X</span>),<span style="color: #996633">Y</span>).
+        
+    <span style="color: #888888">%% SHOW DUPLICATES</span>
+    
+        <span style="color: #0066BB; font-weight: bold">onlydup</span>([],[]).
+        <span style="color: #0066BB; font-weight: bold">onlydup</span>([<span style="color: #996633">Y</span>|<span style="color: #996633">Xs</span>],[<span style="color: #996633">Y</span>|<span style="color: #996633">Ys</span>]) :- <span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">Xs</span>), <span style="color: #0066BB; font-weight: bold">onlydup</span>(<span style="color: #996633">Xs</span>,<span style="color: #996633">Ys</span>). 
+        <span style="color: #0066BB; font-weight: bold">onlydup</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>],<span style="color: #996633">Ys</span>) :- <span style="color: #333333">not</span>(<span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Xs</span>)), <span style="color: #0066BB; font-weight: bold">onlydup</span>(<span style="color: #996633">Xs</span>,<span style="color: #996633">Ys</span>).
+        
+        <span style="color: #888888">% e.g. onlydup([1,1,1,2,5,2,1,1,3,4], Answer) == Answer = [1,2]</span>
+        
+    <span style="color: #888888">%% CHECK IF SECOND ELEMENT IS A PARTICULAR ELEMENT</span>
+    
+        <span style="color: #0066BB; font-weight: bold">second</span>(<span style="color: #996633">X</span>,[<span style="color: #008800; font-weight: bold">_</span>,<span style="color: #996633">X</span>|<span style="color: #008800; font-weight: bold">_</span>]).  
+            
+            <span style="color: #888888">%% Usage: second(2, [1,2,3]). == true</span>
+    
+    <span style="color: #888888">%% CHECK IF TWO LIST ARE IDENTICAL EXCEPT FOR THE FIRST TWO ELEMENT SWAPPED</span>
+    
+        <span style="color: #0066BB; font-weight: bold">swap12</span>([<span style="color: #996633">A</span>,<span style="color: #996633">B</span>|<span style="color: #996633">C</span>],[<span style="color: #996633">B</span>,<span style="color: #996633">A</span>|<span style="color: #996633">C</span>]).
+        
+            <span style="color: #888888">%% Usage: swap12([1,2,3,4,5],[2,1,3,4,5].</span>
+
+    <span style="color: #888888">%% SUM ALL ELEMENTS </span>
+
+        <span style="color: #0066BB; font-weight: bold">sumall</span>([<span style="color: #996633">N</span>], <span style="color: #996633">N</span>) :- <span style="color: #0066BB; font-weight: bold">number</span>(<span style="color: #996633">N</span>).        
+        <span style="color: #0066BB; font-weight: bold">sumall</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Rest</span>], <span style="color: #996633">N</span>) :- <span style="color: #0066BB; font-weight: bold">number</span>(<span style="color: #996633">X</span>), <span style="color: #0066BB; font-weight: bold">sumall</span>(<span style="color: #996633">Rest</span>, <span style="color: #996633">Y</span>), <span style="color: #996633">N</span> <span style="color: #333333">is</span> <span style="color: #996633">X</span> <span style="color: #333333">+</span> <span style="color: #996633">Y</span>.
+
+            <span style="color: #888888">%% Usage: sumall([1,2,3,4], N), N = 10</span>
+
+    <span style="color: #888888">%% SPLIT ODDS FROM EVENS</span>
+    
+        <span style="color: #888888">/* split(Xs, Os, Es) is true if Os is a list containing the odd positioned</span>
+<span style="color: #888888">           elements of the list Xs, and Es is a list containing the even         </span>
+<span style="color: #888888">           positioned elements of Xs.                                            */</span>
+        <span style="color: #0066BB; font-weight: bold">split</span>([], [], []).
+        <span style="color: #0066BB; font-weight: bold">split</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>], [<span style="color: #996633">X</span>|<span style="color: #996633">Os</span>], <span style="color: #996633">Es</span>):-<span style="color: #0066BB; font-weight: bold">split</span>(<span style="color: #996633">Xs</span>, <span style="color: #996633">Es</span>, <span style="color: #996633">Os</span>).
+
+    <span style="color: #888888">%% EXTRACT A RANDOM NUMBER</span>
+    
+        <span style="color: #0066BB; font-weight: bold">rnd_select</span>(<span style="color: #008800; font-weight: bold">_</span>, <span style="color: #6600EE; font-weight: bold">0</span>, []).
+        <span style="color: #0066BB; font-weight: bold">rnd_select</span>(<span style="color: #996633">XS</span>, <span style="color: #996633">N</span>, [<span style="color: #996633">X</span>|<span style="color: #996633">ZS</span>]) :- <span style="color: #996633">N</span> <span style="color: #333333">&gt;</span> <span style="color: #6600EE; font-weight: bold">0</span>,
+                                    <span style="color: #0066BB; font-weight: bold">length</span>(<span style="color: #996633">XS</span>,<span style="color: #996633">L</span>),
+                                    <span style="color: #996633">I</span> <span style="color: #333333">is</span> <span style="color: #0066BB; font-weight: bold">random</span>(<span style="color: #996633">L</span>),
+                                    <span style="color: #996633">I</span> <span style="color: #333333">is</span> <span style="color: #0066BB; font-weight: bold">random</span>(<span style="color: #996633">L</span>) <span style="color: #333333">+</span> <span style="color: #6600EE; font-weight: bold">1</span>,
+                                    <span style="color: #0066BB; font-weight: bold">remove_at</span>(<span style="color: #996633">X</span>,<span style="color: #996633">XS</span>,<span style="color: #996633">I</span>,<span style="color: #996633">YS</span>),
+                                    <span style="color: #996633">N1</span> <span style="color: #333333">is</span> <span style="color: #996633">N</span><span style="color: #333333">-</span><span style="color: #6600EE; font-weight: bold">1</span>,
+                                    <span style="color: #0066BB; font-weight: bold">rnd_select</span>(<span style="color: #996633">YS</span>,<span style="color: #996633">N1</span>,<span style="color: #996633">ZS</span>).
+            
+    <span style="color: #888888">%% GROUP TOGETHER</span>
+        
+        <span style="color: #888888">% pack(L1,L2) :- the list L2 is obtained from the list L1 by packing</span>
+        <span style="color: #888888">%    repeated occurrences of elements into separate sublists.</span>
+        <span style="color: #888888">%    (list,list) (+,?)</span>
+        
+        <span style="color: #0066BB; font-weight: bold">pack</span>([],[]).
+        <span style="color: #0066BB; font-weight: bold">pack</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>],[<span style="color: #996633">Z</span>|<span style="color: #996633">Zs</span>]) :- <span style="color: #0066BB; font-weight: bold">transfer</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Xs</span>,<span style="color: #996633">Ys</span>,<span style="color: #996633">Z</span>), <span style="color: #0066BB; font-weight: bold">pack</span>(<span style="color: #996633">Ys</span>,<span style="color: #996633">Zs</span>).
+        
+    <span style="color: #888888">%% REMOVE LEADING COPIES OF A VALUE FROM A LIST</span>
+    
+        <span style="color: #888888">% transfer(X,Xs,Ys,Z) Ys is the list that remains from the list Xs</span>
+        <span style="color: #888888">%    when all leading copies of X are removed and transfered to Z</span>
+        
+        <span style="color: #0066BB; font-weight: bold">transfer</span>(<span style="color: #996633">X</span>,[],[],[<span style="color: #996633">X</span>]).
+        <span style="color: #0066BB; font-weight: bold">transfer</span>(<span style="color: #996633">X</span>,[<span style="color: #996633">Y</span>|<span style="color: #996633">Ys</span>],[<span style="color: #996633">Y</span>|<span style="color: #996633">Ys</span>],[<span style="color: #996633">X</span>]) :- <span style="color: #996633">X</span> <span style="background-color: #fff0f0">\=</span> <span style="color: #996633">Y</span>.
+        <span style="color: #0066BB; font-weight: bold">transfer</span>(<span style="color: #996633">X</span>,[<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>],<span style="color: #996633">Ys</span>,[<span style="color: #996633">X</span>|<span style="color: #996633">Zs</span>]) :- <span style="color: #0066BB; font-weight: bold">transfer</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Xs</span>,<span style="color: #996633">Ys</span>,<span style="color: #996633">Zs</span>).
+        
+    <span style="color: #888888">%% ENCODE (aaabb) -&gt; (3,a)(2,b)                            </span>
+    
+        <span style="color: #888888">% ?- encode([a,a,a,a,b,c,c,a,a,d,e,e,e,e],X).</span>
+        <span style="color: #888888">% X = [[4,a],[1,b],[2,c],[2,a],[1,d][4,e]]</span>
+        
+        <span style="color: #0066BB; font-weight: bold">encode</span>(<span style="color: #996633">L1</span>, <span style="color: #996633">X</span>) :- <span style="color: #0066BB; font-weight: bold">pack</span>(<span style="color: #996633">L1</span>,<span style="color: #996633">L</span>), <span style="color: #0066BB; font-weight: bold">trasform</span>(<span style="color: #996633">L</span>,<span style="color: #996633">L2</span>).
+        
+        <span style="color: #0066BB; font-weight: bold">trasform</span>([],[]).
+        <span style="color: #0066BB; font-weight: bold">transform</span>([[<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>]|<span style="color: #996633">Ys</span>],[[<span style="color: #996633">N</span>,<span style="color: #996633">X</span>]|<span style="color: #996633">Zs</span>]) :- <span style="color: #0066BB; font-weight: bold">length</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>],<span style="color: #996633">N</span>), <span style="color: #0066BB; font-weight: bold">transform</span>(<span style="color: #996633">Ys</span>,<span style="color: #996633">Zs</span>).
+        
+        
+        
+        <span style="color: #888888">/* substitute(X,Y,Xs,Ys) is true if the list Ys is the result of           */</span>
+        <span style="color: #888888">/*   substituting Y for all occurrences of X in the list Xs.               */</span>
+        <span style="color: #0066BB; font-weight: bold">substitute</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,[],[]).
+        <span style="color: #0066BB; font-weight: bold">substitute</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,[<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>],[<span style="color: #996633">Y</span>|<span style="color: #996633">Ys</span>]):-<span style="color: #0066BB; font-weight: bold">substitute</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Xs</span>,<span style="color: #996633">Ys</span>).
+        <span style="color: #0066BB; font-weight: bold">substitute</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,[<span style="color: #996633">Z</span>|<span style="color: #996633">Xs</span>],[<span style="color: #996633">Z</span>|<span style="color: #996633">Ys</span>]):-<span style="color: #996633">X</span><span style="background-color: #fff0f0">\=</span><span style="color: #996633">Z</span>, <span style="color: #0066BB; font-weight: bold">substitute</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Xs</span>,<span style="color: #996633">Ys</span>).
+
+
+    <span style="color: #888888">%% MERGESORT</span>
+
+        <span style="color: #888888">/* merge_sort(Xs, Ys) is true if the list Ys is a sorted permutation of   </span>
+<span style="color: #888888">           the list Xs.                                                          */</span>
+        <span style="color: #0066BB; font-weight: bold">merge_sort</span>([], []).
+        <span style="color: #0066BB; font-weight: bold">merge_sort</span>([<span style="color: #996633">X</span>], [<span style="color: #996633">X</span>]).
+        <span style="color: #0066BB; font-weight: bold">merge_sort</span>([<span style="color: #996633">Odd</span>,<span style="color: #996633">Even</span>|<span style="color: #996633">Xs</span>], <span style="color: #996633">Ys</span>):-
+          <span style="color: #0066BB; font-weight: bold">split</span>([<span style="color: #996633">Odd</span>,<span style="color: #996633">Even</span>|<span style="color: #996633">Xs</span>], <span style="color: #996633">Odds</span>, <span style="color: #996633">Evens</span>),
+          <span style="color: #0066BB; font-weight: bold">merge_sort</span>(<span style="color: #996633">Odds</span>, <span style="color: #996633">Os</span>),
+          <span style="color: #0066BB; font-weight: bold">merge_sort</span>(<span style="color: #996633">Evens</span>, <span style="color: #996633">Es</span>),
+          <span style="color: #0066BB; font-weight: bold">ordered_merge</span>(<span style="color: #996633">Os</span>, <span style="color: #996633">Es</span>, <span style="color: #996633">Ys</span>).
+    
+    <span style="color: #888888">%% ORDERED_MERGE</span>
+    
+        <span style="color: #888888">/* ordered_merge(Xs, Ys, Zs) is true if Zs is an ordered list obtained     </span>
+<span style="color: #888888">           from merging the ordered lists Xs and Ys.                             */</span>
+        <span style="color: #0066BB; font-weight: bold">ordered_merge</span>([], <span style="color: #996633">Ys</span>, <span style="color: #996633">Ys</span>).
+        <span style="color: #0066BB; font-weight: bold">ordered_merge</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>], [], [<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>]).
+        <span style="color: #0066BB; font-weight: bold">ordered_merge</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>], [<span style="color: #996633">Y</span>|<span style="color: #996633">Ys</span>], [<span style="color: #996633">X</span>|<span style="color: #996633">Zs</span>]):-<span style="color: #996633">X</span> <span style="color: #333333">&lt;</span> <span style="color: #996633">Y</span>,  <span style="color: #0066BB; font-weight: bold">ordered_merge</span>(<span style="color: #996633">Xs</span>, [<span style="color: #996633">Y</span>|<span style="color: #996633">Ys</span>], <span style="color: #996633">Zs</span>).
+        <span style="color: #0066BB; font-weight: bold">ordered_merge</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>], [<span style="color: #996633">Y</span>|<span style="color: #996633">Ys</span>], [<span style="color: #996633">Y</span>|<span style="color: #996633">Zs</span>]):-<span style="color: #996633">X</span> <span style="color: #333333">&gt;=</span> <span style="color: #996633">Y</span>, <span style="color: #0066BB; font-weight: bold">ordered_merge</span>([<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>], <span style="color: #996633">Ys</span>, <span style="color: #996633">Zs</span>).
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    <span style="color: #888888">%% NUMBERS</span>
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    
+    <span style="color: #888888">%%  Arithmetic	X  Prolog Notation</span>
+    <span style="color: #888888">%%    x &lt; y	    X    &lt;       Y.</span>
+    <span style="color: #888888">%%    x ≤ y	    X    =&lt;      Y.</span>
+    <span style="color: #888888">%%    x = y	    X    =:=     Y.</span>
+    <span style="color: #888888">%%    x ⁄ = y	X    =\=     Y.</span>
+    <span style="color: #888888">%%    x ≥ y	    X    &gt;=      Y.</span>
+    <span style="color: #888888">%%    x &gt; y	    X    &gt;       Y.</span>
+    
+    <span style="color: #888888">%% PRIME NUMBER</span>
+    
+        <span style="color: #0066BB; font-weight: bold">divisible</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>):-
+                            <span style="color: #996633">N</span> <span style="color: #333333">is</span> <span style="color: #996633">Y</span><span style="color: #333333">*</span><span style="color: #996633">Y</span>,
+                            <span style="color: #996633">N</span> <span style="color: #333333">=&lt;</span> <span style="color: #996633">X</span>,
+                            <span style="color: #996633">X</span> <span style="color: #333333">mod</span> <span style="color: #996633">Y</span> <span style="color: #333333">=:=</span> <span style="color: #6600EE; font-weight: bold">0</span>.
+        
+        <span style="color: #0066BB; font-weight: bold">divisible</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>):-
+                            <span style="color: #996633">Y</span> <span style="color: #333333">&lt;</span> <span style="color: #996633">X</span>,
+                            <span style="color: #996633">Y1</span> <span style="color: #333333">is</span> <span style="color: #996633">Y</span><span style="color: #333333">+</span><span style="color: #6600EE; font-weight: bold">1</span>,
+                            <span style="color: #0066BB; font-weight: bold">divisible</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y1</span>).
+        
+        <span style="color: #0066BB; font-weight: bold">isprime</span>(<span style="color: #996633">X</span>):-
+                            <span style="color: #996633">Y</span> <span style="color: #333333">is</span> <span style="color: #6600EE; font-weight: bold">2</span>, 
+                            <span style="color: #996633">X</span> <span style="color: #333333">&gt;</span> <span style="color: #6600EE; font-weight: bold">1</span>, 
+                            <span style="background-color: #fff0f0">\+</span><span style="color: #0066BB; font-weight: bold">divisible</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>).
+        
+        <span style="color: #888888">%%Usage:  isprime(7). == true</span>
+    
+    <span style="color: #888888">%% POWER</span>
+    
+        <span style="color: #0066BB; font-weight: bold">power</span>(<span style="color: #6600EE; font-weight: bold">0</span>,<span style="color: #996633">N</span>,<span style="color: #6600EE; font-weight: bold">0</span>):- <span style="color: #996633">N</span><span style="color: #333333">&gt;</span><span style="color: #6600EE; font-weight: bold">0</span>.
+        <span style="color: #0066BB; font-weight: bold">power</span>(<span style="color: #996633">X</span>,<span style="color: #6600EE; font-weight: bold">0</span>,<span style="color: #6600EE; font-weight: bold">1</span>):- <span style="color: #996633">X</span><span style="color: #333333">&gt;</span><span style="color: #6600EE; font-weight: bold">0</span>.
+        <span style="color: #0066BB; font-weight: bold">power</span>(<span style="color: #996633">X</span>,<span style="color: #996633">N</span>,<span style="color: #996633">V</span>):- <span style="color: #996633">X</span><span style="color: #333333">&gt;</span><span style="color: #6600EE; font-weight: bold">0</span>,<span style="color: #996633">N</span><span style="color: #333333">&gt;</span><span style="color: #6600EE; font-weight: bold">0</span>,<span style="color: #996633">N1</span> <span style="color: #333333">is</span> <span style="color: #996633">N</span><span style="color: #333333">-</span><span style="color: #6600EE; font-weight: bold">1</span>,<span style="color: #0066BB; font-weight: bold">power</span>(<span style="color: #996633">X</span>,<span style="color: #996633">N1</span>,<span style="color: #996633">V1</span>), <span style="color: #996633">V</span> <span style="color: #333333">is</span> <span style="color: #996633">V1</span><span style="color: #333333">*</span><span style="color: #996633">X</span>.
+    
+        <span style="color: #888888">%%Usage: power(2,4,P). == V=16</span>
+    
+    <span style="color: #888888">%% FACTORIAL</span>
+    
+        <span style="color: #0066BB; font-weight: bold">fact</span>(<span style="color: #6600EE; font-weight: bold">0</span>,<span style="color: #6600EE; font-weight: bold">1</span>).
+        <span style="color: #0066BB; font-weight: bold">fact</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>) :-
+                        <span style="color: #996633">X1</span> <span style="color: #333333">is</span> <span style="color: #996633">X</span><span style="color: #333333">-</span><span style="color: #6600EE; font-weight: bold">1</span>,
+                        <span style="color: #0066BB; font-weight: bold">fact</span>(<span style="color: #996633">X1</span>,<span style="color: #996633">Z</span>),
+                        <span style="color: #996633">Y</span> <span style="color: #333333">is</span> <span style="color: #996633">X</span><span style="color: #333333">*</span><span style="color: #996633">Z</span>.
+        
+            <span style="color: #888888">%%Usage:  fact(3,X). == X=6</span>
+    
+    <span style="color: #888888">%% MAXIMUM OF A NUMBER</span>
+        
+        <span style="color: #0066BB; font-weight: bold">max</span>(<span style="color: #996633">List</span>,<span style="color: #996633">MAXIMUM</span>) :- <span style="color: #996633">List</span> <span style="color: #333333">=</span> [<span style="color: #996633">H</span>|<span style="color: #008800; font-weight: bold">_</span>], <span style="color: #0066BB; font-weight: bold">maxInternal</span>(<span style="color: #996633">List</span>,<span style="color: #996633">H</span>,<span style="color: #996633">MAXIMUM</span>).
+       
+        <span style="color: #0066BB; font-weight: bold">maxInternal</span>([],<span style="color: #996633">MAX</span>,<span style="color: #996633">MAX</span>).
+        <span style="color: #0066BB; font-weight: bold">maxInternal</span>([<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>], <span style="color: #996633">MAX</span>, <span style="color: #996633">M</span>) :-  <span style="color: #996633">MAX_NEW</span> <span style="color: #333333">is</span> <span style="color: #996633">X</span>, 
+                                        <span style="color: #996633">X</span> <span style="color: #333333">&gt;=</span> <span style="color: #996633">MAX</span>, 
+                                        <span style="color: #0066BB; font-weight: bold">maxInternal</span>(<span style="color: #996633">XS</span>, <span style="color: #996633">MAX_NEW</span>, <span style="color: #996633">M</span>).
+
+        <span style="color: #0066BB; font-weight: bold">maxInternal</span>([<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>], <span style="color: #996633">MAX</span>, <span style="color: #996633">M</span>) :-  <span style="color: #996633">X</span> <span style="color: #333333">=&lt;</span> <span style="color: #996633">MAX</span>, 
+                                        <span style="color: #0066BB; font-weight: bold">maxInternal</span>(<span style="color: #996633">XS</span>, <span style="color: #996633">MAX</span>, <span style="color: #996633">M</span>).
+    
+    
+    
+    <span style="color: #888888">%% PRIME FACTORS OF A NUMBER</span>
+    
+        <span style="color: #0066BB; font-weight: bold">prime_factors</span>(<span style="color: #996633">N</span>, <span style="color: #996633">L</span>) :- <span style="color: #996633">N</span> <span style="color: #333333">&gt;</span> <span style="color: #6600EE; font-weight: bold">0</span>, <span style="color: #0066BB; font-weight: bold">prime_factors</span>(<span style="color: #996633">N</span>,<span style="color: #996633">L</span>,<span style="color: #6600EE; font-weight: bold">2</span>).
+    
+        <span style="color: #0066BB; font-weight: bold">prime_factors</span>(<span style="color: #6600EE; font-weight: bold">1</span>,[],<span style="color: #008800; font-weight: bold">_</span>) :- !.
+        <span style="color: #0066BB; font-weight: bold">prime_factors</span>(<span style="color: #996633">N</span>, [<span style="color: #996633">F</span>|<span style="color: #996633">L</span>], <span style="color: #996633">F</span>) :-                       <span style="color: #888888">% N is multiple of F</span>
+                        <span style="color: #996633">R</span> <span style="color: #333333">is</span> <span style="color: #996633">N</span> <span style="color: #333333">//</span> <span style="color: #996633">F</span>, <span style="color: #996633">N</span> <span style="color: #333333">=:=</span> <span style="color: #996633">R</span> <span style="color: #333333">*</span> <span style="color: #996633">F</span>, !, <span style="color: #0066BB; font-weight: bold">prime_factors</span>(<span style="color: #996633">R</span>,<span style="color: #996633">L</span>,<span style="color: #996633">F</span>).
+        <span style="color: #0066BB; font-weight: bold">prime_factors</span>(<span style="color: #996633">N</span>,<span style="color: #996633">L</span>,<span style="color: #996633">F</span>) :-
+                <span style="color: #0066BB; font-weight: bold">next_factor</span>(<span style="color: #996633">N</span>,<span style="color: #996633">F</span>,<span style="color: #996633">NF</span>), <span style="color: #0066BB; font-weight: bold">prime_factors</span>(<span style="color: #996633">N</span>,<span style="color: #996633">L</span>,<span style="color: #996633">NF</span>). <span style="color: #888888">% N is not multiple of F</span>
+            
+        
+        <span style="color: #888888">% compute the next larger candidate to be a factor of N</span>
+        <span style="color: #0066BB; font-weight: bold">next_factor</span>(<span style="color: #008800; font-weight: bold">_</span>, <span style="color: #6600EE; font-weight: bold">2</span>,<span style="color: #6600EE; font-weight: bold">3</span>) :- !.
+        <span style="color: #0066BB; font-weight: bold">next_factor</span>(<span style="color: #996633">N</span>,<span style="color: #996633">F</span>,<span style="color: #996633">NF</span>) :- <span style="color: #996633">F</span> <span style="color: #333333">*</span> <span style="color: #996633">F</span> <span style="color: #333333">&lt;</span> <span style="color: #996633">N</span>, !, <span style="color: #996633">NF</span> <span style="color: #333333">is</span> <span style="color: #996633">F</span> <span style="color: #333333">+</span> <span style="color: #6600EE; font-weight: bold">2</span>.
+        <span style="color: #0066BB; font-weight: bold">next_factor</span>(<span style="color: #996633">N</span>,<span style="color: #008800; font-weight: bold">_</span>,<span style="color: #996633">N</span>).
+        
+        
+    <span style="color: #888888">%% FIBONACCI SEQUENCE</span>
+    
+        <span style="color: #888888">/* fib(N,F) is true if F is the Nth Fibonacci number.                      */</span>
+        <span style="color: #0066BB; font-weight: bold">fib</span>(<span style="color: #6600EE; font-weight: bold">0</span>,<span style="color: #6600EE; font-weight: bold">0</span>).
+        <span style="color: #0066BB; font-weight: bold">fib</span>(<span style="color: #0066BB; font-weight: bold">s</span>(<span style="color: #6600EE; font-weight: bold">0</span>),<span style="color: #0066BB; font-weight: bold">s</span>(<span style="color: #6600EE; font-weight: bold">0</span>)).
+        <span style="color: #0066BB; font-weight: bold">fib</span>(<span style="color: #0066BB; font-weight: bold">s</span>(<span style="color: #0066BB; font-weight: bold">s</span>(<span style="color: #996633">X</span>)),<span style="color: #996633">F</span>):-
+          <span style="color: #0066BB; font-weight: bold">fib</span>(<span style="color: #996633">X</span>,<span style="color: #996633">D</span>),
+          <span style="color: #0066BB; font-weight: bold">fib</span>(<span style="color: #0066BB; font-weight: bold">s</span>(<span style="color: #996633">X</span>),<span style="color: #996633">E</span>),
+          <span style="color: #0066BB; font-weight: bold">plus</span>(<span style="color: #996633">D</span>,<span style="color: #996633">E</span>,<span style="color: #996633">F</span>).
+        
+    <span style="color: #888888">%% PLUS</span>
+    
+        <span style="color: #888888">/* plus(X,Y,Z) is true if X, Y and Z are natural numbers such that Z is    */</span>
+        <span style="color: #888888">/*   the  sum of X and Y.                                                  */</span>
+        <span style="color: #0066BB; font-weight: bold">plus</span>(<span style="color: #6600EE; font-weight: bold">0</span>,<span style="color: #996633">X</span>,<span style="color: #996633">X</span>):-<span style="color: #0066BB; font-weight: bold">natural_number</span>(<span style="color: #996633">X</span>).
+        <span style="color: #0066BB; font-weight: bold">plus</span>(<span style="color: #0066BB; font-weight: bold">s</span>(<span style="color: #996633">X</span>),<span style="color: #996633">Y</span>,<span style="color: #0066BB; font-weight: bold">s</span>(<span style="color: #996633">Z</span>)):-<span style="color: #0066BB; font-weight: bold">plus</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>).
+    
+    <span style="color: #888888">%% DIV</span>
+    
+        <span style="color: #888888">/* int_div(X,Y,Z) is true if Z is the quotient of the integer division of  */</span>
+        <span style="color: #888888">/*   X by Y.                                                               */</span>
+        <span style="color: #0066BB; font-weight: bold">int_div</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,<span style="color: #6600EE; font-weight: bold">0</span>):-<span style="color: #0066BB; font-weight: bold">gt</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">X</span>).
+        <span style="color: #0066BB; font-weight: bold">int_div</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,<span style="color: #0066BB; font-weight: bold">s</span>(<span style="color: #996633">Z</span>)):-<span style="color: #0066BB; font-weight: bold">plus</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">X1</span>,<span style="color: #996633">X</span>),<span style="color: #0066BB; font-weight: bold">int_div</span>(<span style="color: #996633">X1</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>).
+
+    <span style="color: #888888">%% GDC</span>
+
+        <span style="color: #888888">/* gcd(X,Y,Z) is true if Z is the greatest common divisor of X and Y.      */</span>
+        <span style="color: #0066BB; font-weight: bold">gcd</span>(<span style="color: #996633">X</span>,<span style="color: #6600EE; font-weight: bold">0</span>,<span style="color: #996633">X</span>):-<span style="color: #0066BB; font-weight: bold">gt</span>(<span style="color: #996633">X</span>,<span style="color: #6600EE; font-weight: bold">0</span>).
+        <span style="color: #0066BB; font-weight: bold">gcd</span>(<span style="color: #6600EE; font-weight: bold">0</span>,<span style="color: #996633">X</span>,<span style="color: #996633">X</span>):-<span style="color: #0066BB; font-weight: bold">gt</span>(<span style="color: #996633">X</span>,<span style="color: #6600EE; font-weight: bold">0</span>).
+        <span style="color: #0066BB; font-weight: bold">gcd</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">G</span>):-<span style="color: #0066BB; font-weight: bold">gt</span>(<span style="color: #996633">Y</span>,<span style="color: #6600EE; font-weight: bold">0</span>),<span style="color: #0066BB; font-weight: bold">ge</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>),<span style="color: #0066BB; font-weight: bold">plus</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">X1</span>,<span style="color: #996633">X</span>),<span style="color: #0066BB; font-weight: bold">gcd</span>(<span style="color: #996633">X1</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">G</span>).
+        <span style="color: #0066BB; font-weight: bold">gcd</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">G</span>):-<span style="color: #0066BB; font-weight: bold">gt</span>(<span style="color: #996633">X</span>,<span style="color: #6600EE; font-weight: bold">0</span>),<span style="color: #0066BB; font-weight: bold">gt</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">X</span>),<span style="color: #0066BB; font-weight: bold">plus</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y1</span>,<span style="color: #996633">Y</span>),<span style="color: #0066BB; font-weight: bold">gcd</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y1</span>,<span style="color: #996633">G</span>).
+
+    <span style="color: #888888">%% SQUARE ROOT        </span>
+        
+        <span style="color: #888888">/* squareroot(N, I) is true if I is the integer square root of the natural */</span>
+        <span style="color: #888888">/*   number N.                                                             */</span>
+        <span style="color: #0066BB; font-weight: bold">squareroot</span>(<span style="color: #996633">N</span>, <span style="color: #996633">I</span>):-
+          <span style="color: #996633">N</span> <span style="color: #333333">&gt;=</span> <span style="color: #6600EE; font-weight: bold">0</span>,
+          <span style="color: #0066BB; font-weight: bold">between</span>(<span style="color: #6600EE; font-weight: bold">0</span>, <span style="color: #996633">N</span>, <span style="color: #996633">I</span>),
+          <span style="color: #996633">I</span> <span style="color: #333333">*</span> <span style="color: #996633">I</span> <span style="color: #333333">=&lt;</span> <span style="color: #996633">N</span>,
+          (<span style="color: #996633">I</span> <span style="color: #333333">+</span> <span style="color: #6600EE; font-weight: bold">1</span>) <span style="color: #333333">*</span> (<span style="color: #996633">I</span> <span style="color: #333333">+</span> <span style="color: #6600EE; font-weight: bold">1</span>) <span style="color: #333333">&gt;</span> <span style="color: #996633">N</span>,
+          !.
+
+    <span style="color: #888888">%% BETWEEN TWO NUMBERS</span>
+          
+        <span style="color: #888888">/* between(I, J, K) is true if K is an integer between I and J inclusive.  */</span>
+        <span style="color: #0066BB; font-weight: bold">between</span>(<span style="color: #996633">I</span>, <span style="color: #996633">J</span>, <span style="color: #996633">I</span>):-<span style="color: #996633">I</span> <span style="color: #333333">=&lt;</span> <span style="color: #996633">J</span>.
+        <span style="color: #0066BB; font-weight: bold">between</span>(<span style="color: #996633">I</span>, <span style="color: #996633">J</span>, <span style="color: #996633">K</span>):-<span style="color: #996633">I</span> <span style="color: #333333">&lt;</span> <span style="color: #996633">J</span>, <span style="color: #996633">I1</span> <span style="color: #333333">is</span> <span style="color: #996633">I</span> <span style="color: #333333">+</span> <span style="color: #6600EE; font-weight: bold">1</span>, <span style="color: #0066BB; font-weight: bold">between</span>(<span style="color: #996633">I1</span>, <span style="color: #996633">J</span>, <span style="color: #996633">K</span>).    
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    <span style="color: #888888">%% META PREDICATES</span>
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    
+    <span style="color: #888888">%% FAIL</span>
+    
+        <span style="color: #888888">%% Cause a clause to return false.</span>
+
+        <span style="background-color: #fff0f0">fail</span>.
+
+            <span style="color: #888888">%%Usage  findInList(y, []) :- fail.</span>
+
+    <span style="color: #888888">%% CALL</span>
+    
+        <span style="color: #0066BB; font-weight: bold">call</span>(<span style="color: #0066BB; font-weight: bold">plus</span>(<span style="color: #6600EE; font-weight: bold">1</span>), <span style="color: #6600EE; font-weight: bold">2</span>, <span style="color: #996633">X</span>).
+
+            <span style="color: #888888">%%Usage  X = 3 (i.e. plus(1,2,X).</span>
+    
+    <span style="color: #888888">%% MAP</span>
+    
+        <span style="color: #0066BB; font-weight: bold">map</span>(<span style="color: #008800; font-weight: bold">_</span>, [], []).
+        <span style="color: #0066BB; font-weight: bold">map</span>(<span style="color: #996633">Function</span>, [<span style="color: #996633">X</span>|<span style="color: #996633">XS</span>], [<span style="color: #996633">Y</span>|<span style="color: #996633">YS</span>]) :- <span style="color: #0066BB; font-weight: bold">call</span>(<span style="color: #996633">Function</span>, <span style="color: #996633">X</span>, <span style="color: #996633">Y</span>), <span style="color: #0066BB; font-weight: bold">map</span>(<span style="color: #996633">Function</span>, <span style="color: #996633">XS</span>, <span style="color: #996633">YS</span>).
+        
+            <span style="color: #888888">%%Usage map(test, [1,2,3,4], X). == X = [1, 4, 9, 16].</span>
+
+<span style="color: #888888">% es: all(, X &gt; 0).</span>
+
+    <span style="color: #888888">%% PATTERN MATCHING WHEN USING ARITMETHIC OPERATORS</span>
+
+        <span style="color: #888888">%% Define a mixUp predicate, which takes an arithmetic expression without variables </span>
+        <span style="color: #888888">%% containing only the * and + operators, and puts in its second argument the value </span>
+        <span style="color: #888888">%% of the expression obtained by changing all the * operators to + and vice versa, </span>
+        <span style="color: #888888">%% but keeping the same syntactic structure.</span>
+
+        <span style="color: #888888">%% E.g. mixUp(3*2+4,X) must return X = 20.</span>
+        <span style="color: #888888">%% Note: use cut to avoid unnecessary backtracks.</span>
+
+        <span style="color: #0066BB; font-weight: bold">mixUp</span>(<span style="color: #996633">X1</span>, <span style="color: #996633">X</span>) :- <span style="color: #0066BB; font-weight: bold">atomic</span>(<span style="color: #996633">X1</span>), <span style="color: #996633">X</span> <span style="color: #333333">is</span> <span style="color: #996633">X1</span>.
+        <span style="color: #0066BB; font-weight: bold">mixUp</span>(<span style="color: #996633">X1</span> <span style="color: #333333">*</span> <span style="color: #996633">X2</span>, <span style="color: #996633">X</span>) :- <span style="color: #0066BB; font-weight: bold">mixUp</span>(<span style="color: #996633">X1</span>, <span style="color: #996633">Q</span>), <span style="color: #0066BB; font-weight: bold">mixUp</span>(<span style="color: #996633">X2</span>, <span style="color: #996633">W</span>), <span style="color: #996633">X</span> <span style="color: #333333">is</span> <span style="color: #996633">Q</span> <span style="color: #333333">+</span> <span style="color: #996633">W</span>.
+        <span style="color: #0066BB; font-weight: bold">mixUp</span>(<span style="color: #996633">X1</span> <span style="color: #333333">+</span> <span style="color: #996633">X2</span>, <span style="color: #996633">X</span>) :- <span style="color: #0066BB; font-weight: bold">mixUp</span>(<span style="color: #996633">X1</span>, <span style="color: #996633">Q</span>), <span style="color: #0066BB; font-weight: bold">mixUp</span>(<span style="color: #996633">X2</span>, <span style="color: #996633">W</span>), <span style="color: #996633">X</span> <span style="color: #333333">is</span> <span style="color: #996633">Q</span> <span style="color: #333333">*</span> <span style="color: #996633">W</span>.
+
+    <span style="color: #888888">%% ADVANCED PATTERN MATCHING WITH FUNCTORS</span>
+    
+        <span style="color: #888888">%% We know that we cannot match X(Y) = f(3) but sometimes it is useful</span>
+        <span style="color: #888888">%% We can do it by using the predicate =.. which is used to DECOMPOSE a term</span>
+        
+        <span style="color: #0066BB; font-weight: bold">f</span>(<span style="color: #6600EE; font-weight: bold">2</span>,<span style="color: #0066BB; font-weight: bold">g</span>(<span style="color: #6600EE; font-weight: bold">4</span>)) <span style="background-color: #fff0f0">=..</span> <span style="color: #996633">X</span> <span style="background-color: #fff0f0">binds</span> <span style="color: #996633">X</span> <span style="color: #333333">=</span> [<span style="background-color: #fff0f0">f</span>, <span style="color: #6600EE; font-weight: bold">2</span>, <span style="color: #0066BB; font-weight: bold">g</span>(<span style="color: #6600EE; font-weight: bold">4</span>)];
+        <span style="color: #0066BB; font-weight: bold">f</span>(<span style="color: #6600EE; font-weight: bold">3</span>) <span style="background-color: #fff0f0">=..</span> [<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>] <span style="background-color: #fff0f0">binds</span> <span style="color: #996633">X</span> <span style="color: #333333">=</span> <span style="background-color: #fff0f0">f</span>, <span style="color: #996633">Y</span> <span style="color: #333333">=</span> <span style="color: #6600EE; font-weight: bold">3</span>;
+        
+    <span style="color: #888888">%% ADDING FACTS AT RUNTIME</span>
+
+        <span style="color: #0066BB; font-weight: bold">asserta</span>( <span style="background-color: #fff0f0">a</span> <span style="background-color: #fff0f0">certain</span> <span style="color: #996633">Fact</span> ).      <span style="color: #888888">%% add at the top of the KB</span>
+        <span style="color: #0066BB; font-weight: bold">assertz</span>( <span style="background-color: #fff0f0">a</span> <span style="background-color: #fff0f0">certain</span> <span style="color: #996633">Fact</span> ).      <span style="color: #888888">%% add at the bottom of the KB</span>
+    
+            <span style="color: #888888">%%Usage: assertz(test(N,R) :- R is N*N).</span>
+    
+    <span style="color: #888888">%% NEGATION \+</span>
+    
+        <span style="color: #333333">not</span>(<span style="color: #996633">X</span>) :- <span style="color: #0066BB; font-weight: bold">call</span>(<span style="color: #996633">X</span>), !, <span style="background-color: #fff0f0">fail</span>.
+        <span style="color: #333333">not</span>(<span style="color: #996633">X</span>).
+        
+            <span style="color: #888888">%% is already defines ad the prefix operator \+</span>
+            <span style="color: #888888">%%Usage: \+ member(6,[1,2,3]).</span>
+            <span style="color: #888888">%% true.</span>
+       
+    <span style="color: #888888">%% CUT !</span>
+   
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+     
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    <span style="color: #888888">%% BINARY TREES</span>
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    
+        <span style="color: #888888">%% ISTREE</span>
+        
+            <span style="color: #0066BB; font-weight: bold">isLeaf</span>(<span style="color: #996633">X</span>)  :- <span style="color: #0066BB; font-weight: bold">atomic</span>(<span style="color: #996633">X</span>).
+            
+            <span style="color: #0066BB; font-weight: bold">isBinaryTree</span>(<span style="color: #996633">BinaryTree</span>) :- <span style="color: #0066BB; font-weight: bold">isLeaf</span>(<span style="color: #996633">BinaryTree</span>). <span style="color: #888888">% is a leaf</span>
+            <span style="color: #0066BB; font-weight: bold">isBinaryTree</span>(<span style="color: #996633">BinaryTree</span>) :- <span style="background-color: #fff0f0">\+</span> <span style="color: #0066BB; font-weight: bold">isLeaf</span>(<span style="color: #996633">BinaryTree</span>), <span style="color: #996633">BinaryTree</span> <span style="background-color: #fff0f0">=..</span> [<span style="color: #996633">Op</span>, <span style="color: #996633">Value</span>, [<span style="color: #996633">Left</span>,<span style="color: #996633">Right</span>]], <span style="color: #0066BB; font-weight: bold">isLeaf</span>(<span style="color: #996633">Value</span>), <span style="color: #0066BB; font-weight: bold">isBinaryTree</span>(<span style="color: #996633">Left</span>), <span style="color: #0066BB; font-weight: bold">isBinaryTree</span>(<span style="color: #996633">Right</span>), !.
+
+            <span style="color: #888888">%%Usage: t = a(1,a(c(1,2),a(1,1))) </span>
+        
+        <span style="color: #888888">%% COUNT LEAVES</span>
+
+            <span style="color: #0066BB; font-weight: bold">count_leaves</span>([], <span style="color: #996633">N</span>) :- <span style="color: #996633">N</span> <span style="color: #333333">is</span> <span style="color: #6600EE; font-weight: bold">0</span>, !.
+            <span style="color: #0066BB; font-weight: bold">count_leaves</span>(<span style="color: #996633">BinaryTree</span>, <span style="color: #996633">N</span>) :- <span style="color: #0066BB; font-weight: bold">isLeaf</span>(<span style="color: #996633">BinaryTree</span>), <span style="color: #996633">N</span> <span style="color: #333333">is</span> <span style="color: #6600EE; font-weight: bold">1</span>, !.
+            <span style="color: #0066BB; font-weight: bold">count_leaves</span>(<span style="color: #996633">BinaryTree</span>, <span style="color: #996633">N</span>) :- <span style="background-color: #fff0f0">\+</span> <span style="color: #0066BB; font-weight: bold">isLeaf</span>(<span style="color: #996633">BinaryTree</span>), <span style="color: #0066BB; font-weight: bold">isBinaryTree</span>(<span style="color: #996633">BinaryTree</span>),
+                                <span style="color: #996633">BinaryTree</span> <span style="background-color: #fff0f0">=..</span> [<span style="color: #996633">Op</span>, <span style="color: #996633">Value</span>, [<span style="color: #996633">Left</span>,<span style="color: #996633">Right</span>]], !,
+                                <span style="color: #0066BB; font-weight: bold">count_leaves</span>(<span style="color: #996633">Left</span>, <span style="color: #996633">Nl</span>),
+                                <span style="color: #0066BB; font-weight: bold">count_leaves</span>(<span style="color: #996633">Right</span>, <span style="color: #996633">Nr</span>),
+                                <span style="color: #996633">N</span> <span style="color: #333333">is</span> <span style="color: #996633">Nl</span><span style="color: #333333">+</span><span style="color: #996633">Nr</span>.
+                            
+         <span style="color: #888888">%% COLLECT LEAVES IN A LIST (not work actually)</span>
+
+            <span style="color: #0066BB; font-weight: bold">collect_leaves</span>([], <span style="color: #996633">N</span>, []) :- <span style="color: #996633">N</span> <span style="color: #333333">is</span> <span style="color: #6600EE; font-weight: bold">0</span>, !.
+            <span style="color: #0066BB; font-weight: bold">collect_leaves</span>(<span style="color: #996633">BinaryTree</span>, <span style="color: #996633">N</span>, <span style="color: #996633">Y</span>) :- <span style="color: #0066BB; font-weight: bold">isLeaf</span>(<span style="color: #996633">BinaryTree</span>), <span style="color: #996633">N</span> <span style="color: #333333">is</span> <span style="color: #6600EE; font-weight: bold">1</span>, <span style="color: #996633">Y</span> <span style="color: #333333">=</span> <span style="color: #996633">BinaryTree</span>, !.
+            
+            <span style="color: #0066BB; font-weight: bold">collect_leaves</span>(<span style="color: #996633">BinaryTree</span>, <span style="color: #996633">N</span>, [<span style="color: #996633">L</span>,<span style="color: #996633">R</span>|<span style="color: #996633">X</span>]) :- <span style="background-color: #fff0f0">\+</span> <span style="color: #0066BB; font-weight: bold">isLeaf</span>(<span style="color: #996633">BinaryTree</span>), <span style="color: #0066BB; font-weight: bold">isBinaryTree</span>(<span style="color: #996633">BinaryTree</span>),
+                               <span style="color: #996633">BinaryTree</span> <span style="background-color: #fff0f0">=..</span> [<span style="color: #996633">Op</span>, <span style="color: #996633">Value</span>, [<span style="color: #996633">Left</span>,<span style="color: #996633">Right</span>]], !,
+                               <span style="color: #0066BB; font-weight: bold">collect_leaves</span>(<span style="color: #996633">BinaryTree</span>, <span style="color: #996633">Nl</span>, <span style="color: #996633">L</span>),
+                               <span style="color: #0066BB; font-weight: bold">collect_leaves</span>(<span style="color: #996633">BinaryTree</span>, <span style="color: #996633">Nr</span>, <span style="color: #996633">R</span>).
+
+        
+        <span style="color: #888888">% COUNT NODE</span>
+        
+            <span style="color: #888888">%% Implement the predicate countpreds which has two inputs: an atom x, and a</span>
+            <span style="color: #888888">%% binary tree t. Such predicate must return the number of times that x is used </span>
+            <span style="color: #888888">%% as an internal node in t.</span>
+
+            <span style="color: #0066BB; font-weight: bold">countpreds</span>([], <span style="color: #996633">BinaryTree</span>, <span style="color: #996633">Accumulator</span>) :-  <span style="color: #996633">Accumulator</span> <span style="color: #333333">is</span> <span style="color: #6600EE; font-weight: bold">0</span>.         
+            <span style="color: #0066BB; font-weight: bold">countpreds</span>(<span style="color: #996633">AtomName</span>, <span style="color: #996633">BinaryTree</span>, <span style="color: #996633">Accumulator</span>) :-  <span style="color: #0066BB; font-weight: bold">isLeaf</span>(<span style="color: #996633">BinaryTree</span>), <span style="color: #996633">Accumulator</span> <span style="color: #333333">is</span> <span style="color: #6600EE; font-weight: bold">1</span>.
+                    <span style="color: #888888">%% [] is atomic too!</span>
+            
+            <span style="color: #888888">%% In case the current tree has an internal node that is AtomName</span>
+            <span style="color: #0066BB; font-weight: bold">countpreds</span>(<span style="color: #996633">AtomName</span>, <span style="color: #996633">BinaryTree</span>, <span style="color: #996633">Accumulator</span>) :- 
+                                    <span style="background-color: #fff0f0">\+</span>   <span style="color: #0066BB; font-weight: bold">isLeaf</span>(<span style="color: #996633">BinaryTree</span>), 
+                                    <span style="color: #0066BB; font-weight: bold">isBinaryTree</span>(<span style="color: #996633">BinaryTree</span>),
+                                    <span style="color: #996633">BinaryTree</span> <span style="background-color: #fff0f0">=..</span> [<span style="color: #996633">Op</span>, <span style="color: #996633">Value</span>, [<span style="color: #996633">Left</span>,<span style="color: #996633">Right</span>]], !,  <span style="color: #888888">%% *2       </span>
+            <span style="color: #888888">%% *2 -  We are sure we won&#39;t need another solution here: we will not backtrack</span>
+                                    <span style="color: #996633">AtomName</span> <span style="color: #333333">=</span> <span style="color: #996633">Node</span>,
+                                    <span style="color: #0066BB; font-weight: bold">countpreds</span>(<span style="color: #996633">Node</span>, <span style="color: #996633">Left</span>, <span style="color: #996633">AccL</span>),
+                                    <span style="color: #0066BB; font-weight: bold">countpreds</span>(<span style="color: #996633">Node</span>, <span style="color: #996633">Right</span>, <span style="color: #996633">AccR</span>),
+                                    <span style="color: #996633">Accumulator</span> <span style="color: #333333">is</span> <span style="color: #996633">AccL</span><span style="color: #333333">+</span><span style="color: #996633">AccR</span><span style="color: #333333">+</span><span style="color: #6600EE; font-weight: bold">1</span>.
+                                                        
+            <span style="color: #888888">%% In case the current tree has an internal node that is NOT AtomName</span>
+           <span style="color: #0066BB; font-weight: bold">countpreds</span>(<span style="color: #996633">AtomName</span>, <span style="color: #996633">BinaryTree</span>, <span style="color: #996633">Accumulator</span>) :- 
+                                    <span style="background-color: #fff0f0">\+</span>   <span style="color: #0066BB; font-weight: bold">isLeaf</span>(<span style="color: #996633">BinaryTree</span>), 
+                                    <span style="color: #0066BB; font-weight: bold">isBinaryTree</span>(<span style="color: #996633">BinaryTree</span>),
+                                    <span style="color: #996633">BinaryTree</span> <span style="background-color: #fff0f0">=..</span> [<span style="color: #996633">Op</span>, <span style="color: #996633">Value</span>, [<span style="color: #996633">Left</span>,<span style="color: #996633">Right</span>]], !,  <span style="color: #888888">%% *2       </span>
+            <span style="color: #888888">%% *2 -  We are sure we won&#39;t need another solution here: we will not backtrack</span>
+                                    <span style="color: #0066BB; font-weight: bold">countpreds</span>(<span style="color: #996633">Node</span>, <span style="color: #996633">Left</span>, <span style="color: #996633">AccL</span>),
+                                    <span style="color: #0066BB; font-weight: bold">countpreds</span>(<span style="color: #996633">Node</span>, <span style="color: #996633">Right</span>, <span style="color: #996633">AccR</span>),
+                                    <span style="color: #996633">Accumulator</span> <span style="color: #333333">is</span> <span style="color: #996633">AccL</span><span style="color: #333333">+</span><span style="color: #996633">AccR</span>.   <span style="color: #888888">%% *1</span>
+                                                                <span style="color: #888888">%% *1 - !!! no more +1 !!!</span>
+        
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    <span style="color: #888888">%% MULTIWAY TREES</span>
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+        
+        
+        <span style="color: #888888">%% isMultiwayTree</span>
+        
+            <span style="color: #0066BB; font-weight: bold">isMultiwayTree</span>(<span style="color: #0066BB; font-weight: bold">t</span>(<span style="color: #008800; font-weight: bold">_</span>,<span style="color: #996633">F</span>)) :- <span style="color: #0066BB; font-weight: bold">isforest</span>(<span style="color: #996633">F</span>).
+            
+            <span style="color: #0066BB; font-weight: bold">isforest</span>([]).
+            <span style="color: #0066BB; font-weight: bold">isforest</span>([<span style="color: #996633">T</span>|<span style="color: #996633">Ts</span>]) :- <span style="color: #0066BB; font-weight: bold">isMultiwayTree</span>(<span style="color: #996633">T</span>), <span style="color: #0066BB; font-weight: bold">isforest</span>(<span style="color: #996633">Ts</span>).
+
+            <span style="color: #888888">%% here t(_,_) is a couple, so it recognize only tree in the form:</span>
+            <span style="color: #888888">%% T = t(a,[t(f,[t(g,[])]),t(c,[]),t(b,[t(d,[]),t(e,[])])])</span>
+
+
+        <span style="color: #888888">%% nodes count</span>
+        
+            <span style="color: #0066BB; font-weight: bold">nnodes</span>([],<span style="color: #6600EE; font-weight: bold">0</span>).
+            <span style="color: #0066BB; font-weight: bold">nnodes</span>(<span style="color: #0066BB; font-weight: bold">t</span>(<span style="color: #008800; font-weight: bold">_</span>,<span style="color: #996633">F</span>),<span style="color: #996633">N</span>) :- <span style="color: #0066BB; font-weight: bold">nnodes</span>(<span style="color: #996633">F</span>,<span style="color: #996633">NF</span>), <span style="color: #996633">N</span> <span style="color: #333333">is</span> <span style="color: #996633">NF</span><span style="color: #333333">+</span><span style="color: #6600EE; font-weight: bold">1</span>.
+            <span style="color: #0066BB; font-weight: bold">nnodes</span>([<span style="color: #996633">T</span>|<span style="color: #996633">Ts</span>], <span style="color: #996633">N</span>) :- <span style="color: #0066BB; font-weight: bold">nnodes</span>(<span style="color: #996633">T</span>,<span style="color: #996633">NT</span>), <span style="color: #0066BB; font-weight: bold">nnodes</span>(<span style="color: #996633">Ts</span>, <span style="color: #996633">NTs</span>), <span style="color: #996633">N</span> <span style="color: #333333">is</span> <span style="color: #996633">NT</span> <span style="color: #333333">+</span> <span style="color: #996633">NTs</span>.
+
+            <span style="color: #888888">%% ?- nnodes(t(a,[t(f,[])]),N).</span>
+            <span style="color: #888888">%% N = 2</span>
+
+        <span style="color: #888888">%% CHECK IF A TRAVERSAL IS IN PREORDER        </span>
+    
+            <span style="color: #888888">/* pre_order(Tree,L) is true if L is a pre-order traversal of the binary   */</span>
+            <span style="color: #888888">/*   tree Tree.                                                            */</span>
+            <span style="color: #0066BB; font-weight: bold">pre_order</span>(<span style="color: #996633">T</span>,<span style="color: #996633">L</span>):-<span style="color: #0066BB; font-weight: bold">pre_order</span>(<span style="color: #996633">T</span>,<span style="color: #996633">L</span>,[]).
+            
+            <span style="color: #0066BB; font-weight: bold">pre_order</span>(<span style="background-color: #fff0f0">void</span>,<span style="color: #996633">Xs</span>,<span style="color: #996633">Xs</span>).
+            <span style="color: #0066BB; font-weight: bold">pre_order</span>(<span style="color: #0066BB; font-weight: bold">tree</span>(<span style="color: #996633">X</span>,<span style="color: #996633">L</span>,<span style="color: #996633">R</span>),[<span style="color: #996633">X</span>|<span style="color: #996633">Xs</span>],<span style="color: #996633">Zs</span>):-
+              <span style="color: #0066BB; font-weight: bold">pre_order</span>(<span style="color: #996633">L</span>,<span style="color: #996633">Xs</span>,<span style="color: #996633">Ys</span>),
+              <span style="color: #0066BB; font-weight: bold">pre_order</span>(<span style="color: #996633">R</span>,<span style="color: #996633">Ys</span>,<span style="color: #996633">Zs</span>).
+              
+        <span style="color: #888888">%% CHECK IF A TRAVERSAL IS IN INORDER              </span>
+    
+            <span style="color: #888888">/* in_order(Tree,L) is true if L is an in-order traversal of the binary    */</span>
+            <span style="color: #888888">/*   tree Tree.                                                            */</span>
+            <span style="color: #0066BB; font-weight: bold">in_order</span>(<span style="color: #996633">T</span>,<span style="color: #996633">L</span>):-<span style="color: #0066BB; font-weight: bold">in_order</span>(<span style="color: #996633">T</span>,<span style="color: #996633">L</span>,[]).
+            
+            <span style="color: #0066BB; font-weight: bold">in_order</span>(<span style="background-color: #fff0f0">void</span>,<span style="color: #996633">Xs</span>,<span style="color: #996633">Xs</span>).
+            <span style="color: #0066BB; font-weight: bold">in_order</span>(<span style="color: #0066BB; font-weight: bold">tree</span>(<span style="color: #996633">X</span>,<span style="color: #996633">L</span>,<span style="color: #996633">R</span>),<span style="color: #996633">Xs</span>,<span style="color: #996633">Zs</span>):-
+              <span style="color: #0066BB; font-weight: bold">in_order</span>(<span style="color: #996633">L</span>,<span style="color: #996633">Xs</span>,[<span style="color: #996633">X</span>|<span style="color: #996633">Ys</span>]),
+              <span style="color: #0066BB; font-weight: bold">in_order</span>(<span style="color: #996633">R</span>,<span style="color: #996633">Ys</span>,<span style="color: #996633">Zs</span>).
+
+        <span style="color: #888888">%% CHECK IF A TRAVERSAL IS IN POSTORDER</span>
+    
+            <span style="color: #888888">/* post_order(Tree,L) is true if L is a post-order traversal of the binary */</span>
+            <span style="color: #888888">/*   tree Tree.                                                            */</span>
+            <span style="color: #0066BB; font-weight: bold">post_order</span>(<span style="color: #996633">T</span>,<span style="color: #996633">L</span>):-<span style="color: #0066BB; font-weight: bold">post_order</span>(<span style="color: #996633">T</span>,<span style="color: #996633">L</span>,[]).
+            
+            <span style="color: #0066BB; font-weight: bold">post_order</span>(<span style="background-color: #fff0f0">void</span>,<span style="color: #996633">Xs</span>,<span style="color: #996633">Xs</span>).
+            <span style="color: #0066BB; font-weight: bold">post_order</span>(<span style="color: #0066BB; font-weight: bold">tree</span>(<span style="color: #996633">X</span>,<span style="color: #996633">L</span>,<span style="color: #996633">R</span>),<span style="color: #996633">Xs</span>,<span style="color: #996633">Zs</span>):-
+              <span style="color: #0066BB; font-weight: bold">post_order</span>(<span style="color: #996633">L</span>,<span style="color: #996633">Xs</span>,<span style="color: #996633">Ys</span>),
+              <span style="color: #0066BB; font-weight: bold">post_order</span>(<span style="color: #996633">R</span>,<span style="color: #996633">Ys</span>,[<span style="color: #996633">X</span>|<span style="color: #996633">Zs</span>]).
+     
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    <span style="color: #888888">%% SIMPLE PROGRAMS</span>
+    <span style="color: #888888">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    
+    <span style="color: #888888">%% MULTIWAY TREE OLD STYLE</span>
+
+        <span style="color: #888888">%% Consider binary trees represented as a hierarchic lists, where each node is a list</span>
+        <span style="color: #888888">%% [node, subtree1, subtree2]. Leaves are just symbols. </span>
+
+        <span style="color: #888888">%% In the colored subtree problem, we take as input a tree, and put into each internal node </span>
+        <span style="color: #888888">%% a number representing the number of different leaves present in its subtrees.</span>
+
+        <span style="color: #888888">%% E.g. given this tree: [R,[X,yellow,brown],[Y,blue,yellow]] the solution is: R = 3, X = Y = 2. </span>
+        <span style="color: #888888">%% Define the col_tree predicate, that solves the colored subtree problem.</span>
+
+        <span style="color: #888888">%% Hint: the predicate union(X,Y,Z) holds if the list Z is the union of X and Y, seen as sets.</span>
+
+        <span style="color: #888888">%% We need to pay attention: we must count ONLY DIFFERENT LEAVES!</span>
+
+        <span style="color: #0066BB; font-weight: bold">myLength</span>([], <span style="color: #996633">Z</span>) :- <span style="color: #996633">Z</span> <span style="color: #333333">is</span> <span style="color: #6600EE; font-weight: bold">0</span>.
+        <span style="color: #0066BB; font-weight: bold">myLength</span>([<span style="color: #008800; font-weight: bold">_</span>|<span style="color: #996633">Y</span>], <span style="color: #996633">Z</span>) :- <span style="color: #0066BB; font-weight: bold">myLength</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">N</span>), <span style="color: #996633">Z</span> <span style="color: #333333">is</span> <span style="color: #996633">N</span><span style="color: #333333">+</span><span style="color: #6600EE; font-weight: bold">1</span>. 
+
+        <span style="color: #0066BB; font-weight: bold">intersect</span>([ ], <span style="color: #008800; font-weight: bold">_</span>, [ ]).
+        <span style="color: #0066BB; font-weight: bold">intersect</span>([<span style="color: #996633">X</span>|<span style="color: #996633">R</span>], <span style="color: #996633">Y</span>, [<span style="color: #996633">X</span>|<span style="color: #996633">Z</span>]) :- <span style="color: #0066BB; font-weight: bold">member</span>(<span style="color: #996633">X</span>, <span style="color: #996633">Y</span>), !, <span style="color: #0066BB; font-weight: bold">intersect</span>(<span style="color: #996633">R</span>, <span style="color: #996633">Y</span>, <span style="color: #996633">Z</span>).
+        <span style="color: #0066BB; font-weight: bold">intersect</span>([<span style="color: #008800; font-weight: bold">_</span>|<span style="color: #996633">R</span>], <span style="color: #996633">Y</span>, <span style="color: #996633">Z</span>) :- <span style="color: #0066BB; font-weight: bold">intersect</span>(<span style="color: #996633">R</span>, <span style="color: #996633">Y</span>, <span style="color: #996633">Z</span>).
+
+        <span style="color: #888888">%% Casi base</span>
+        <span style="color: #0066BB; font-weight: bold">col_tree</span>([<span style="color: #6600EE; font-weight: bold">1</span>, <span style="color: #996633">X</span>, <span style="color: #996633">X</span>], [<span style="color: #996633">X</span>])    :- <span style="color: #0066BB; font-weight: bold">atomic</span>(<span style="color: #996633">X</span>).
+        <span style="color: #0066BB; font-weight: bold">col_tree</span>([<span style="color: #6600EE; font-weight: bold">2</span>, <span style="color: #996633">X</span>, <span style="color: #996633">Y</span>], [<span style="color: #996633">X</span>, <span style="color: #996633">Y</span>]) :- <span style="color: #0066BB; font-weight: bold">atomic</span>(<span style="color: #996633">X</span>), <span style="color: #0066BB; font-weight: bold">atomic</span>(<span style="color: #996633">Y</span>).
+
+        <span style="color: #888888">%% Caso alberi sbilanciati a destra</span>
+        <span style="color: #0066BB; font-weight: bold">col_tree</span>([<span style="color: #996633">N1</span>, <span style="color: #996633">Tree1</span>, <span style="color: #996633">Tree2</span>]) :-         <span style="color: #0066BB; font-weight: bold">atomic</span>(<span style="color: #996633">Tree1</span>),
+                                                <span style="color: #0066BB; font-weight: bold">col_tree</span>(<span style="color: #996633">Tree2</span>, <span style="color: #996633">Col2</span>),
+                                                <span style="color: #0066BB; font-weight: bold">union</span>([<span style="color: #996633">Tree1</span>], <span style="color: #996633">Col2</span>, <span style="color: #996633">Colors</span>), 
+                                                <span style="color: #0066BB; font-weight: bold">myLength</span>(<span style="color: #996633">Colors</span>, <span style="color: #996633">N1</span>).
+
+        <span style="color: #888888">%% Caso alberi sbilanciati a sinistra</span>
+        <span style="color: #0066BB; font-weight: bold">col_tree</span>([<span style="color: #996633">N1</span>, <span style="color: #996633">Tree1</span>, <span style="color: #996633">Tree2</span>]) :-         <span style="color: #0066BB; font-weight: bold">col_tree</span>(<span style="color: #996633">Tree1</span>, <span style="color: #996633">Col1</span>),
+                                                <span style="color: #0066BB; font-weight: bold">atomic</span>(<span style="color: #996633">Tree2</span>),
+                                                <span style="color: #0066BB; font-weight: bold">union</span>(<span style="color: #996633">Col1</span>, [<span style="color: #996633">Tree2</span>], <span style="color: #996633">Colors</span>), 
+                                                <span style="color: #0066BB; font-weight: bold">myLength</span>(<span style="color: #996633">Colors</span>, <span style="color: #996633">N1</span>).
+
+        <span style="color: #888888">%% Caso alberi bilanciati</span>
+        <span style="color: #0066BB; font-weight: bold">col_tree</span>([<span style="color: #996633">N1</span>, <span style="color: #996633">Tree1</span>, <span style="color: #996633">Tree2</span>]) :-         <span style="color: #0066BB; font-weight: bold">col_tree</span>(<span style="color: #996633">Tree1</span>, <span style="color: #996633">Col1</span>),
+                                                <span style="color: #0066BB; font-weight: bold">col_tree</span>(<span style="color: #996633">Tree2</span>, <span style="color: #996633">Col2</span>),
+                                                <span style="color: #0066BB; font-weight: bold">union</span>(<span style="color: #996633">Col1</span>, <span style="color: #996633">Col2</span>, <span style="color: #996633">Colors</span>), 
+                                                <span style="color: #0066BB; font-weight: bold">myLength</span>(<span style="color: #996633">Colors</span>, <span style="color: #996633">N1</span>).
+
+
+    <span style="color: #888888">%% NATURAL NUMBERS</span>
+   
+        <span style="color: #0066BB; font-weight: bold">numeral</span>(<span style="color: #6600EE; font-weight: bold">0</span>).  
+        <span style="color: #0066BB; font-weight: bold">numeral</span>(<span style="color: #0066BB; font-weight: bold">succ</span>(<span style="color: #996633">X</span>))  :-  <span style="color: #0066BB; font-weight: bold">numeral</span>(<span style="color: #996633">X</span>).
+        
+        <span style="color: #0066BB; font-weight: bold">add</span>(<span style="color: #6600EE; font-weight: bold">0</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Y</span>). 
+        <span style="color: #0066BB; font-weight: bold">add</span>(<span style="color: #996633">Y</span>,<span style="color: #6600EE; font-weight: bold">0</span>,<span style="color: #996633">Y</span>). 
+        
+        <span style="color: #0066BB; font-weight: bold">add</span>(<span style="color: #0066BB; font-weight: bold">succ</span>(<span style="color: #996633">X</span>),<span style="color: #996633">Y</span>,<span style="color: #0066BB; font-weight: bold">succ</span>(<span style="color: #996633">Z</span>)) :- <span style="color: #0066BB; font-weight: bold">add</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>).
+        <span style="color: #0066BB; font-weight: bold">add</span>(<span style="color: #996633">X</span>, <span style="color: #0066BB; font-weight: bold">succ</span>(<span style="color: #996633">Y</span>),<span style="color: #0066BB; font-weight: bold">succ</span>(<span style="color: #996633">Z</span>)) :- <span style="color: #0066BB; font-weight: bold">add</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>).
+    
+    
+    
+    <span style="color: #888888">%% LIST PLAY</span>
+            
+        <span style="color: #888888">%% Write a predicate twice(In,Out) whose left argument </span>
+        <span style="color: #888888">%% is a list, and whose right argument is a list consisting of </span>
+        <span style="color: #888888">%% every element in the left list written twice. </span>
+        <span style="color: #888888">%% For example, the query</span>
+        
+        <span style="color: #888888">%% twice([a,4,buggle],X).</span>
+        
+        <span style="color: #888888">%% should return</span>
+        
+        <span style="color: #888888">%% X  =  [a,a,4,4,buggle,buggle]).</span>
+        <span style="color: #888888">%% And the query</span>
+        
+        <span style="color: #888888">%% twice([1,2,1,1],X).</span>
+        <span style="color: #888888">%% should return</span>
+        
+        <span style="color: #888888">%% X  =  [1,1,2,2,1,1,1,1].</span>
+        
+        <span style="color: #888888">%% (Hint: to answer this question, first ask yourself </span>
+
+        <span style="color: #888888">%% “What should happen when the first argument is the empty list?”. </span>
+        <span style="color: #888888">%% That’s the base case. </span>
+        <span style="color: #888888">%% For non-empty lists, think about what you should do with the head, </span>
+        <span style="color: #888888">%% and use recursion to handle the tail.)</span>
+        
+        <span style="color: #0066BB; font-weight: bold">twice</span>([],[]).
+        <span style="color: #0066BB; font-weight: bold">twice</span>([<span style="color: #996633">X1</span>|<span style="color: #996633">XS</span>],[<span style="color: #996633">X1</span>,<span style="color: #996633">X1</span>|<span style="color: #996633">YS</span>]) :- <span style="color: #0066BB; font-weight: bold">twice</span>(<span style="color: #996633">XS</span>,<span style="color: #996633">YS</span>).
+               
+    
+    <span style="color: #888888">%% RESOLVE MAZE</span>
+        
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">1</span>,<span style="color: #6600EE; font-weight: bold">2</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">3</span>,<span style="color: #6600EE; font-weight: bold">4</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">5</span>,<span style="color: #6600EE; font-weight: bold">6</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">7</span>,<span style="color: #6600EE; font-weight: bold">8</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">9</span>,<span style="color: #6600EE; font-weight: bold">10</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">12</span>,<span style="color: #6600EE; font-weight: bold">13</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">13</span>,<span style="color: #6600EE; font-weight: bold">14</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">15</span>,<span style="color: #6600EE; font-weight: bold">16</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">17</span>,<span style="color: #6600EE; font-weight: bold">18</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">19</span>,<span style="color: #6600EE; font-weight: bold">20</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">4</span>,<span style="color: #6600EE; font-weight: bold">1</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">6</span>,<span style="color: #6600EE; font-weight: bold">3</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">4</span>,<span style="color: #6600EE; font-weight: bold">7</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">6</span>,<span style="color: #6600EE; font-weight: bold">11</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">14</span>,<span style="color: #6600EE; font-weight: bold">9</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">11</span>,<span style="color: #6600EE; font-weight: bold">15</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">16</span>,<span style="color: #6600EE; font-weight: bold">12</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">14</span>,<span style="color: #6600EE; font-weight: bold">17</span>). 
+        <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #6600EE; font-weight: bold">16</span>,<span style="color: #6600EE; font-weight: bold">19</span>).
+        
+        <span style="color: #0066BB; font-weight: bold">canWalkTo</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Z</span>) :- <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Z</span>).   
+        <span style="color: #0066BB; font-weight: bold">canWalkTo</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Z</span>) :- <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>), <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>).
+        <span style="color: #0066BB; font-weight: bold">canWalkTo</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Z</span>) :- <span style="color: #0066BB; font-weight: bold">canWalkTo</span>(<span style="color: #996633">X</span>,<span style="color: #996633">Y</span>), <span style="color: #0066BB; font-weight: bold">connected</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">Z</span>).
+    
+
+
+    <span style="color: #888888">%% TRANSLATING DICTIONARY</span>
+    
+        <span style="color: #0066BB; font-weight: bold">tran</span>(<span style="background-color: #fff0f0">eins</span>,<span style="background-color: #fff0f0">one</span>). 
+        <span style="color: #0066BB; font-weight: bold">tran</span>(<span style="background-color: #fff0f0">zwei</span>,<span style="background-color: #fff0f0">two</span>). 
+        <span style="color: #0066BB; font-weight: bold">tran</span>(<span style="background-color: #fff0f0">drei</span>,<span style="background-color: #fff0f0">three</span>). 
+        <span style="color: #0066BB; font-weight: bold">tran</span>(<span style="background-color: #fff0f0">vier</span>,<span style="background-color: #fff0f0">four</span>). 
+        <span style="color: #0066BB; font-weight: bold">tran</span>(<span style="background-color: #fff0f0">fuenf</span>,<span style="background-color: #fff0f0">five</span>). 
+        <span style="color: #0066BB; font-weight: bold">tran</span>(<span style="background-color: #fff0f0">sechs</span>,<span style="background-color: #fff0f0">six</span>). 
+        <span style="color: #0066BB; font-weight: bold">tran</span>(<span style="background-color: #fff0f0">sieben</span>,<span style="background-color: #fff0f0">seven</span>). 
+        <span style="color: #0066BB; font-weight: bold">tran</span>(<span style="background-color: #fff0f0">acht</span>,<span style="background-color: #fff0f0">eight</span>). 
+        <span style="color: #0066BB; font-weight: bold">tran</span>(<span style="background-color: #fff0f0">neun</span>,<span style="background-color: #fff0f0">nine</span>).
+        
+        <span style="color: #888888">%% Write a predicate listtran(G,E) which translates a list of </span>
+        <span style="color: #888888">%% German number words to the corresponding list of English </span>
+        <span style="color: #888888">%% number words. For example:</span>
+        
+        <span style="color: #888888">%% listtran([eins,neun,zwei],X).</span>
+        <span style="color: #888888">%% should give:</span>
+        
+        <span style="color: #888888">%% X  =  [one,nine,two].</span>
+        
+        <span style="color: #888888">%% Your program should also work in the other direction. </span>
+      
+        <span style="color: #0066BB; font-weight: bold">listtran</span>([],[]).
+        <span style="color: #0066BB; font-weight: bold">listtran</span>([<span style="color: #996633">X1</span>|<span style="color: #996633">XS</span>],[<span style="color: #996633">Y1</span>|<span style="color: #996633">YS</span>]) :- <span style="color: #0066BB; font-weight: bold">tran</span>(<span style="color: #996633">X1</span>,<span style="color: #996633">Y1</span>), <span style="color: #0066BB; font-weight: bold">listtran</span>(<span style="color: #996633">XS</span>,<span style="color: #996633">YS</span>).
+  
+
+
+    <span style="color: #888888">%% ORION</span>
+            
+        <span style="color: #888888">% Orion, Prolog variant - MPradella, MMXII</span>
+
+        <span style="color: #888888">%% datatype: we will use the term sfloat(X,Y,Z)</span>
+        <span style="color: #0066BB; font-weight: bold">valid</span>(<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X</span>,<span style="color: #996633">X</span>,<span style="color: #008800; font-weight: bold">_</span>), <span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X</span>,<span style="color: #996633">X</span>,<span style="color: #996633">X</span>)).
+        <span style="color: #0066BB; font-weight: bold">valid</span>(<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X</span>,<span style="color: #008800; font-weight: bold">_</span>,<span style="color: #996633">X</span>), <span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X</span>,<span style="color: #996633">X</span>,<span style="color: #996633">X</span>)).
+        <span style="color: #0066BB; font-weight: bold">valid</span>(<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #008800; font-weight: bold">_</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Y</span>), <span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">Y</span>,<span style="color: #996633">Y</span>,<span style="color: #996633">Y</span>)).
+        
+        
+        <span style="color: #0066BB; font-weight: bold">sfadd</span>(<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X1</span>,<span style="color: #996633">Y1</span>,<span style="color: #996633">Z1</span>),<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X2</span>,<span style="color: #996633">Y2</span>,<span style="color: #996633">Z2</span>), <span style="color: #996633">Z</span>) :-
+            <span style="color: #996633">X0</span> <span style="color: #333333">is</span> <span style="color: #996633">X1</span><span style="color: #333333">+</span><span style="color: #996633">X2</span>, <span style="color: #996633">Y0</span> <span style="color: #333333">is</span> <span style="color: #996633">Y1</span><span style="color: #333333">+</span><span style="color: #996633">Y2</span>, <span style="color: #996633">Z0</span> <span style="color: #333333">is</span> <span style="color: #996633">Z1</span><span style="color: #333333">+</span><span style="color: #996633">Z2</span>,
+            <span style="color: #0066BB; font-weight: bold">valid</span>(<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X0</span>,<span style="color: #996633">Y0</span>,<span style="color: #996633">Z0</span>),<span style="color: #996633">Z</span>).
+        
+        <span style="color: #0066BB; font-weight: bold">sfsub</span>(<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X1</span>,<span style="color: #996633">Y1</span>,<span style="color: #996633">Z1</span>),<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X2</span>,<span style="color: #996633">Y2</span>,<span style="color: #996633">Z2</span>), <span style="color: #996633">Z</span>) :-
+            <span style="color: #996633">X0</span> <span style="color: #333333">is</span> <span style="color: #996633">X1</span><span style="color: #333333">-</span><span style="color: #996633">X2</span>, <span style="color: #996633">Y0</span> <span style="color: #333333">is</span> <span style="color: #996633">Y1</span><span style="color: #333333">-</span><span style="color: #996633">Y2</span>, <span style="color: #996633">Z0</span> <span style="color: #333333">is</span> <span style="color: #996633">Z1</span><span style="color: #333333">-</span><span style="color: #996633">Z2</span>,
+            <span style="color: #0066BB; font-weight: bold">valid</span>(<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X0</span>,<span style="color: #996633">Y0</span>,<span style="color: #996633">Z0</span>),<span style="color: #996633">Z</span>).
+        
+        <span style="color: #0066BB; font-weight: bold">sfmul</span>(<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X1</span>,<span style="color: #996633">Y1</span>,<span style="color: #996633">Z1</span>),<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X2</span>,<span style="color: #996633">Y2</span>,<span style="color: #996633">Z2</span>), <span style="color: #996633">Z</span>) :-
+            <span style="color: #996633">X0</span> <span style="color: #333333">is</span> <span style="color: #996633">X1</span><span style="color: #333333">*</span><span style="color: #996633">X2</span>, <span style="color: #996633">Y0</span> <span style="color: #333333">is</span> <span style="color: #996633">Y1</span><span style="color: #333333">*</span><span style="color: #996633">Y2</span>, <span style="color: #996633">Z0</span> <span style="color: #333333">is</span> <span style="color: #996633">Z1</span><span style="color: #333333">*</span><span style="color: #996633">Z2</span>,
+            <span style="color: #0066BB; font-weight: bold">valid</span>(<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X0</span>,<span style="color: #996633">Y0</span>,<span style="color: #996633">Z0</span>),<span style="color: #996633">Z</span>).
+        
+        <span style="color: #0066BB; font-weight: bold">sfdiv</span>(<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X1</span>,<span style="color: #996633">Y1</span>,<span style="color: #996633">Z1</span>),<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X2</span>,<span style="color: #996633">Y2</span>,<span style="color: #996633">Z2</span>), <span style="color: #996633">Z</span>) :-
+            <span style="color: #996633">X0</span> <span style="color: #333333">is</span> <span style="color: #996633">X1</span><span style="color: #333333">/</span><span style="color: #996633">X2</span>, <span style="color: #996633">Y0</span> <span style="color: #333333">is</span> <span style="color: #996633">Y1</span><span style="color: #333333">/</span><span style="color: #996633">Y2</span>, <span style="color: #996633">Z0</span> <span style="color: #333333">is</span> <span style="color: #996633">Z1</span><span style="color: #333333">/</span><span style="color: #996633">Z2</span>,
+            <span style="color: #0066BB; font-weight: bold">valid</span>(<span style="color: #0066BB; font-weight: bold">sfloat</span>(<span style="color: #996633">X0</span>,<span style="color: #996633">Y0</span>,<span style="color: #996633">Z0</span>),<span style="color: #996633">Z</span>).
+    
+    <span style="color: #888888">%% HANOI</span>
+    
+        <span style="color: #888888">/* hanoi(N,A,B,C,Moves,[]) is true if Moves is the sequence of moves       */</span>
+        <span style="color: #888888">/*   required to move N discs from peg A to peg B using peg C as an        */</span>
+        <span style="color: #888888">/*   intermediary according to the rules of the Tower of Hanoi puzzle.     */</span>
+
+        <span style="color: #0066BB; font-weight: bold">hanoi</span>(<span style="color: #6600EE; font-weight: bold">1</span>,<span style="color: #996633">A</span>,<span style="color: #996633">B</span>,<span style="color: #996633">C</span>,[<span style="color: #0066BB; font-weight: bold">to</span>(<span style="color: #996633">A</span>,<span style="color: #996633">B</span>)|<span style="color: #996633">Zs</span>],<span style="color: #996633">Zs</span>).
+        <span style="color: #0066BB; font-weight: bold">hanoi</span>(<span style="color: #996633">N</span>,<span style="color: #996633">A</span>,<span style="color: #996633">B</span>,<span style="color: #996633">C</span>,<span style="color: #996633">Xs</span>,<span style="color: #996633">Zs</span>):-
+          <span style="color: #996633">N</span><span style="color: #333333">&gt;</span><span style="color: #6600EE; font-weight: bold">1</span>, <span style="color: #996633">N1</span> <span style="color: #333333">is</span> <span style="color: #996633">N</span> <span style="color: #333333">-</span> <span style="color: #6600EE; font-weight: bold">1</span>,
+          <span style="color: #0066BB; font-weight: bold">hanoi</span>(<span style="color: #996633">N1</span>,<span style="color: #996633">A</span>,<span style="color: #996633">C</span>,<span style="color: #996633">B</span>,<span style="color: #996633">Xs</span>,[<span style="color: #0066BB; font-weight: bold">to</span>(<span style="color: #996633">A</span>,<span style="color: #996633">B</span>)|<span style="color: #996633">Ys</span>]),
+          <span style="color: #0066BB; font-weight: bold">hanoi</span>(<span style="color: #996633">N1</span>,<span style="color: #996633">C</span>,<span style="color: #996633">B</span>,<span style="color: #996633">A</span>,<span style="color: #996633">Ys</span>,<span style="color: #996633">Zs</span>).
+    
+</pre></td></tr></table></div>
